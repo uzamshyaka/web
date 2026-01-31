@@ -559,10 +559,7 @@
 </template>
 
 <script setup>
- import demImage from '../../images/dem.jpg';
-import demu9 from '../../images/demu9.jpg';
-import demu8 from '../../images/demu 8.jpg';
-import demuImage1 from '../../images/demu3.jpg';
+ 
 import demu1 from '../../images/demu1.jpg';
 import demu14 from '../../images/demu14.jpeg';
 import demu12 from '../../images/demu12.jpeg';
