@@ -223,8 +223,8 @@
 </template>
 
 <script setup>
-import demuImage1 from '../../images/demu1.jpg';
-import demu3 from '../../images/demu3.jpg';
+import demuImage1 from '@images/demu1.jpg';
+import demu3 from '@images/demu3.jpg';
 
 
 const clients = [

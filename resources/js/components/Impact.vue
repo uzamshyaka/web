@@ -560,22 +560,22 @@
 
 <script setup>
  
-import demu1 from '../../images/demu1.jpg';
-import demu14 from '../../images/demu14.jpeg';
-import demu12 from '../../images/demu12.jpeg';
-import demu11 from '../../images/demu11.jpg';
-import demu15 from '../../images/demu15.jpeg';
-import demu23 from '../../images/demu23.jpg';
-import demu24 from '../../images/demu24.jpg';
-import demu25 from '../../images/demu25.jpeg';
-import demu10 from '../../images/demu10.jpg';
-import demu16 from '../../images/demu16.jpeg';
-import demu30 from '../../images/demu30.jpg';
-import demu33 from '../../images/demu33.jpg';
-import demu22 from '../../images/demu22.jpeg';
-import demu36 from '../../images/demu36.jpg';
-import demu2 from '../../images/demu2.jpg';
-import demu37 from '../../images/demu37.png';
-import demu40 from '../../images/demu40.jpg';
-import demu39 from '../../images/demu39.jpg'
+import demu1 from '@images/demu1.jpg';
+import demu14 from '@images/demu14.jpeg';
+import demu12 from '@images/demu12.jpeg';
+import demu11 from '@images/demu11.jpg';
+import demu15 from '@images/demu15.jpeg';
+import demu23 from '@images/demu23.jpg';
+import demu24 from '@images/demu24.jpg';
+import demu25 from '@images/demu25.jpeg';
+import demu10 from '@images/demu10.jpg';
+import demu16 from '@images/demu16.jpeg';
+import demu30 from '@images/demu30.jpg';
+import demu33 from '@images/demu33.jpg';
+import demu22 from '@images/demu22.jpeg';
+import demu36 from '@images/demu36.jpg';
+import demu2 from '@images/demu2.jpg';
+import demu37 from '@images/demu37.png';
+import demu40 from '@images/demu40.jpg';
+import demu39 from '@images/demu39.jpg'
 </script>

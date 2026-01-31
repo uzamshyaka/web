@@ -248,12 +248,12 @@
 </template>
 
 <script>
-import demu17 from '../../images/demu17.jpeg';
-import demu16 from '../../images/demu16.jpeg';
-import demu15 from '../../images/demu15.jpeg';
-import demu from '../../images/demu.jpg';
-import demu1 from '../../images/demu1.jpg';
-import demu45 from '../../images/demu45.jpg';
+import demu17 from '@images/demu17.jpeg';
+import demu16 from '@images/demu16.jpeg';
+import demu15 from '@images/demu15.jpeg';
+import demu from '@images/demu.jpg';
+import demu1 from '@images/demu1.jpg';
+import demu45 from '@images/demu45.jpg';
 
 export default {
   name: 'ProfessionalSlider',

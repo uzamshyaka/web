@@ -759,21 +759,21 @@ const impacts = [
   },
 ];
 // Images
-import demImage from '../../images/dem.jpg';
-import demu9 from '../../images/demu9.jpg';
-import demu8 from '../../images/demu 8.jpg';
-import demuImage1 from '../../images/demu3.jpg';
-import demu1 from '../../images/demu1.jpg';
-import demu14 from '../../images/demu14.jpeg';
-import demu12 from '../../images/demu12.jpeg';
-import demu11 from '../../images/demu11.jpg';
-import demu15 from '../../images/demu15.jpeg';
-import demu23 from '../../images/demu23.jpg';
-import demu24 from '../../images/demu24.jpg';
-import demu25 from '../../images/demu25.jpeg';
-import demu10 from '../../images/demu10.jpg';
-import demu16 from '../../images/demu16.jpeg';
-import demu48 from '../../images/demu48.jpg';
+import demImage from '@images/dem.jpg';
+import demu9 from '@images/demu9.jpg';
+import demu8 from '@images/demu 8.jpg';
+import demuImage1 from '@images/demu3.jpg';
+import demu1 from '@images/demu1.jpg';
+import demu14 from '@images/demu14.jpeg';
+import demu12 from '@images/demu12.jpeg';
+import demu11 from '@images/demu11.jpg';
+import demu15 from '@images/demu15.jpeg';
+import demu23 from '@images/demu23.jpg';
+import demu24 from '@images/demu24.jpg';
+import demu25 from '@images/demu25.jpeg';
+import demu10 from '@images/demu10.jpg';
+import demu16 from '@images/demu16.jpeg';
+import demu48 from '@images/demu48.jpg';
 // -----------------------------
 // Refs & Data
 // -----------------------------
