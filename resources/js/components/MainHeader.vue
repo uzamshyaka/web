@@ -51,24 +51,30 @@
       <!-- Social Icons hidden on small screens -->
       <div class="hidden md:flex items-center gap-2">
         <a
-          href="#"
+          href="https://www.facebook.com/Demulla17/"
           class="w-8 h-8 flex items-center justify-center bg-lime-700 hover:bg-[#3b5998] text-white rounded-sm transition"
         >
           <i class="fa-brands fa-facebook-f"></i>
         </a>
         <a
-          href="#"
+          href="https://www.youtube.com/@Demulla"
           class="w-8 h-8 flex items-center justify-center bg-lime-700 hover:bg-[#1DA1F2] text-white rounded-sm transition"
         >
-          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/company/demulla"
           class="w-8 h-8 flex items-center justify-center bg-lime-700 hover:bg-[#E4405F] text-white rounded-sm transition"
         >
-          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
+
+      <a href="https://www.tiktok.com/@demulla.ke"
+        class="w-8 h-8 flex items-center justify-center bg-lime-700 hover:bg-black text-white rounded-sm">
+      <i class="fa-brands fa-tiktok"></i>
+      
+      </a>
 
       <!-- Contact Button -->
       <button
