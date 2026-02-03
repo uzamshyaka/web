@@ -11,7 +11,7 @@
         class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
       />
       <!-- Gradient overlays -->
-      <div class="absolute inset-0 bg-gradient-to-r from-orange-400/60 to-orange-400/70"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-orange-900/60 via-black/70 to-orange-900/60"></div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40"></div>
     </div>
     
