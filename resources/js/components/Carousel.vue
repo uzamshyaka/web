@@ -10,7 +10,7 @@
 
         <!-- Slide 1 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-orange-900/90 via-orange-800/70 to-transparent z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-orange-900/70 z-10"></div>
           <img :src="demu17" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
           
           <!-- Text slightly higher -->
@@ -32,7 +32,7 @@
 
         <!-- Slide 2 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-lime-900/90 via-lime-800/70 to-transparent z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-lime-600/70 z-10"></div>
           <img :src="demu" alt="Slide 2" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
@@ -52,7 +52,7 @@
 
         <!-- Slide 3 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-lime-900/90 via-lime-800/70 to-transparent z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-lime-600/50 z-10"></div>
           <img :src="demu15" alt="Slide 3" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
@@ -72,7 +72,7 @@
 
         <!-- Slide 4 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-orange-900/90 via-orange-800/70 to-transparent z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-700/50 z-10"></div>
           <img :src="demu45" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
@@ -92,7 +92,7 @@
 
         <!-- Slide 5 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r from-lime-900/90 via-lime-800/70 to-transparent z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-lime-600/50 z-10"></div>
           <img :src="demu1" alt="Slide 5" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">

@@ -14,7 +14,7 @@
    <div
   v-show="!scrolledPastCarousel && !isHidden"
   :class="topBarClasses"
-  class="text-sm py-1 px-3 md:px-6 transition-all duration-500 min-h-[40px] md:min-h-auto bg-white"
+  class="text-sm py-1 px-3 md:px-6 transition-all duration-500 min-h-[40px] md:min-h-auto"
 >
   <div class="flex flex-col sm:flex-row items-center justify-between gap-2 md:gap-0">
     
