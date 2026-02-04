@@ -11,7 +11,7 @@
         <!-- Slide 1 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-orange-900/70 z-10"></div>
-          <img :src="demu17" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/dem.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
           
           <!-- Text slightly higher -->
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
@@ -33,7 +33,7 @@
         <!-- Slide 2 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-lime-600/70 z-10"></div>
-          <img :src="demu" alt="Slide 2" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu8.jpg" alt="Slide 2" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -53,7 +53,7 @@
         <!-- Slide 3 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-lime-600/50 z-10"></div>
-          <img :src="demu15" alt="Slide 3" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu15.jpeg" alt="Slide 3" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -73,7 +73,7 @@
         <!-- Slide 4 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-700/50 z-10"></div>
-          <img :src="demu45" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu15.jpeg" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -93,7 +93,7 @@
         <!-- Slide 5 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-lime-600/50 z-10"></div>
-          <img :src="demu1" alt="Slide 5" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu15.jpeg" alt="Slide 5" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -248,12 +248,7 @@
 </template>
 
 <script>
-import demu17 from '@images/demu17.jpeg';
-import demu16 from '@images/demu16.jpeg';
-import demu15 from '@images/demu15.jpeg';
-import demu from '@images/demu.jpg';
-import demu1 from '@images/demu1.jpg';
-import demu45 from '@images/demu45.jpg';
+
 
 export default {
   name: 'ProfessionalSlider',
@@ -263,12 +258,6 @@ export default {
       totalSlides: 5,
       autoPlayInterval: null,
       intervalDuration: 6000,
-      demu16,
-      demu17,
-      demu15,
-      demu,
-      demu1,
-      demu45,
     };
   },
   mounted() { this.startAutoPlay(); },

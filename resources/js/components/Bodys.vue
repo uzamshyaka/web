@@ -162,8 +162,7 @@
           <!-- Image & Chart Container -->
           <div class="lg:w-2/5 relative w-full">
             <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img 
-                :src=demu25 
+              <img src="/images/demu30.jpg"
                 alt="Governance meeting with team collaboration"
                 class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -236,8 +235,7 @@
           <!-- Image & Chart Container -->
           <div class="lg:w-2/5 relative lg:order-2 w-full mt-4 sm:mt-0">
             <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img 
-                :src=demu10
+              <img src="/images/demu30.jpg"
                 alt="Education workshop with participants learning"
                 class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -263,8 +261,7 @@
           <!-- Image & Chart Container -->
           <div class="lg:w-2/5 relative w-full">
             <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img 
-                :src=demu16
+              <img src="/images/demu30.jpg"
                 alt="Data analytics and team collaboration"
                 class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -357,7 +354,7 @@
 
     <!-- Background Image -->
     <img 
-      :src="demu9" 
+      src="/images/demu30.jpg" 
       alt="background"
       class="absolute inset-0 w-full h-full object-cover brightness-70 saturate-90 blur-[1px]"
     >
@@ -734,7 +731,7 @@ const impacts = [
   {
     id: 1,
     title: "Who We Serve",
-    image: demu8,
+    image: "/images/demu30.jpg",
     description:
       "Demulla serves economically active entrepreneurs who are often excluded from formal financial systems. Our core customers include low-income individuals engaged in income-generating activities, small business owners across trade and services, and women entrepreneurs who play a central role in household and community economic stability.",
     stats: [
@@ -747,7 +744,7 @@ const impacts = [
   {
     id: 2,
     title: "Scale & National Impact",
-    image: demu9,
+    image: "/images/demu30.jpg",
     description:
       "From our beginnings in Malaba, Demulla has grown into a national institution with a strong community footprint. Today, we operate across Kenya with teams embedded in local markets, enabling close relationships, disciplined lending, and sustainable impact at scale.",
     stats: [
@@ -759,32 +756,18 @@ const impacts = [
   },
 ];
 // Images
-import demImage from '@images/dem.jpg';
-import demu9 from '@images/demu9.jpg';
-import demu8 from '@images/demu 8.jpg';
-import demuImage1 from '@images/demu3.jpg';
-import demu1 from '@images/demu1.jpg';
-import demu14 from '@images/demu14.jpeg';
-import demu12 from '@images/demu12.jpeg';
-import demu11 from '@images/demu11.jpg';
-import demu15 from '@images/demu15.jpeg';
-import demu23 from '@images/demu23.jpg';
-import demu24 from '@images/demu24.jpg';
-import demu25 from '@images/demu25.jpeg';
-import demu10 from '@images/demu10.jpg';
-import demu16 from '@images/demu16.jpeg';
-import demu48 from '@images/demu48.jpg';
+
 // -----------------------------
 // Refs & Data
 // -----------------------------
 const images = [
-  { src: demuImage1, year: 2017, story: 'Our journey begins' },
-  { src: demu8, year: 2019, story: 'First milestone achieved' },
-  { src: demu9, year: 2021, story: 'Expanded to new areas' },
-  { src: demImage, year: 2023, story: 'Major growth' },
-  { src: demu1, year: 2024, story: 'Reaching new heights' },
-  { src: demu15, year: 2025, story: 'Empowering Communities'},
-  {src: demu25,year: 2026, story: 'Leading the Future'}
+  { src: "/images/demu30.jpg", year: 2017, story: 'Our journey begins' },
+  { src: "/images/demu30.jpg", year: 2019, story: 'First milestone achieved' },
+  { src: "/images/demu30.jpg", year: 2021, story: 'Expanded to new areas' },
+  { src: "/images/demu30.jpg", year: 2023, story: 'Major growth' },
+  { src: "/images/demu30.jpg", year: 2024, story: 'Reaching new heights' },
+  { src: "/images/demu30.jpg", year: 2025, story: 'Empowering Communities'},
+  {src: "/images/demu30.jpg",year: 2026, story: 'Leading the Future'}
 
 ];
 
@@ -915,7 +898,7 @@ const testimonials = [
       'Demulla’s support has given me stability and clear direction in my business. With their guidance, transparent loan terms, and regular follow-ups, I feel confident staying on track and growing steadily.',
     name: 'Agnes',
     role: 'Agnes, Port Victoria',
-    avatar: demu48
+    avatar: "/images/demu30.jpg"
   },
   {
     quote:
@@ -924,14 +907,14 @@ const testimonials = [
 
 
     role: 'Curtain Tailor, Migori',
-    avatar: demu23
+    avatar: "/images/demu30.jpg"
   },
   {
     quote:
     'I worked in the health sector for years before opening my chemist, but running a business required a whole new way of thinking. Demulla’s financial literacy training helped me see the bigger picture — how to plan, track, and grow sustainably Today, my shop is thriving, and I’m building toward my next goal step by step. I want to open more branches, reach more people, and grow with confidence. With Demulla by my side, I believe it’s possible.',
     name: 'Faith',
     role: 'Chemist Owner, Kitale',
-    avatar: demu24
+    avatar: "/images/demu30.jpg"
      
   }
 

@@ -14,10 +14,12 @@ export default defineConfig({
         vue(),
         tailwindcss(),
     ],
+
+    publicDir: 'public', // 👈 THIS LINE FIXES IT
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'resources/js'),
-            '@images': path.resolve(__dirname, 'resources/assets/images'),
+            //'@images': path.resolve(__dirname, 'resources/assets/images'),
         },
     },
     

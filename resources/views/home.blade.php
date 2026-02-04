@@ -7,6 +7,6 @@
 </head>
 <body>
     <script>window.page = "home";</script>
-    <div id="app"></div>
+    <div id="app" data-theme="default"></div>
 </body>
 </html>

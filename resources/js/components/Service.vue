@@ -281,12 +281,6 @@ Follow us on our social platforms to keep up with the latest trends.
 
   <script setup>
 
-import demu1 from '@images/demu1.jpg'
-import demu2 from '@images/demu2.jpg'
-import demu10 from '@images/demu10.jpg'
-import demu11 from '@images/demu11.jpg'
-import demu18 from '@images/demu18.jpeg'
-import demu17 from '@images/demu17.jpeg'
 
 
 import { ref } from "vue";
