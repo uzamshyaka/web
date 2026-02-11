@@ -147,9 +147,9 @@
     
 
 <!-- Floating "Who We Are" Section -->
-<div class="relative z-40 mt-5 md:-mt-48 lg:-mt-64 px-4 md:px-6 lg:px-8">
+<div class="relative z-40 mt-5 md:-mt-48 lg:-mt-48 px-4 md:px-6 lg:px-8">
   <div class="max-w-7xl mx-auto">
-    <div class="bg-lime-700 rounded-2xl shadow-2xl p-8 md:p-12 lg:p-16 transition-all duration-500">
+    <div class="bg-lime-600 rounded-2xl shadow-2xl p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">
         
         <!-- Left Column -->
