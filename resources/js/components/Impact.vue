@@ -163,7 +163,7 @@
         <!-- Story 2 -->
         <div class="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500">
           <div class="h-64 overflow-hidden">
-            <img src="demu1.jpg" 
+            <img src="/images/demu1.jpg" 
               alt="Retail Impact Story"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
@@ -198,7 +198,7 @@
         <!-- Story 3 -->
         <div class="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500">
           <div class="h-64 overflow-hidden">
-            <img src="demu40.jpg" 
+            <img src="/images/demu40.jpg" 
               alt="Manufacturing Impact Story"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
@@ -266,7 +266,7 @@
           </div>
           <div class="mt-6 pt-6 border-t border-gray-100">
             <img 
-              :src="demu2" 
+              src="/images/demu2.jpg" 
               alt="MSMEs Empowered"
               class="w-full h-32 object-cover rounded-xl"
             />
@@ -286,7 +286,7 @@
           </div>
           <div class="mt-6 pt-6 border-t border-gray-100">
             <img 
-              :src="demu36" 
+              src="/images/demu36.jpg" 
               alt="Capital Deployed"
               class="w-full h-32 object-cover rounded-xl"
             />
@@ -304,7 +304,7 @@
           </div>
           <div class="mt-6 pt-6 border-t border-gray-100">
             <img 
-              :src="demu14" 
+              src="/images/demu14.jpeg" 
               alt="Rural Coverage"
               class="w-full h-32 object-cover rounded-xl"
             />
@@ -322,7 +322,7 @@
           </div>
           <div class="mt-6 pt-6 border-t border-gray-100">
             <img 
-              :src="demu15" 
+              src="/images/demu15.jpeg" 
               alt="Growth Performance"
               class="w-full h-32 object-cover rounded-xl"
             />
@@ -339,7 +339,7 @@
         <div class="grid lg:grid-cols-2 gap-8 p-8">
           <div>
             <img 
-              :src="demu37" 
+              src="/images/demu37.png" 
               alt="Kenya Map Impact Visualization"
               class="w-full h-full object-cover rounded-xl shadow-lg"
             />
@@ -371,7 +371,7 @@
                 <h4 class="text-xl font-bold text-gray-900">Nyanza and Central</h4>
                 <p class="text-gray-600">Tech startups, services, and retail businesses</p>
               </div>
-            </div>
+            </ div>
           </div>
         </div>
       </div>
@@ -438,7 +438,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="relative overflow-hidden rounded-2xl group h-64">
           <img 
-            :src="demu30" 
+            src="/images/demu30.jpg" 
             alt="Community Training"
             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
@@ -450,7 +450,7 @@
 
         <div class="relative overflow-hidden rounded-2xl group h-64">
           <img 
-            :src="demu12" 
+            src="/images/demu12.jpeg" 
             alt="Business Growth"
             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
@@ -462,7 +462,7 @@
 
         <div class="relative overflow-hidden rounded-2xl group h-64">
           <img 
-            :src="demu33" 
+            src="/images/demu33.jpg" 
             alt="Women Empowerment"
             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
@@ -474,7 +474,7 @@
 
         <div class="relative overflow-hidden rounded-2xl group h-64 lg:col-span-2">
           <img 
-            :src="demu22" 
+            src="/images/demu22.jpeg" 
             alt="Small business Impact"
             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
@@ -486,7 +486,7 @@
 
         <div class="relative overflow-hidden rounded-2xl group h-64">
           <img 
-            :src="demu15" 
+            src="/images/demu15.jpeg" 
             alt="Youth Engagement"
             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
@@ -504,7 +504,7 @@
     <!-- Background Image -->
     <div class="absolute inset-0">
       <img 
-        :src="demu23" 
+        src="/images/demu23.jpg" 
         alt="Join Our Impact"
         class="w-full h-full object-cover"
       />
