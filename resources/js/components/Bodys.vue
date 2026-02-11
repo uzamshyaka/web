@@ -4,7 +4,7 @@
 <template>
 
   
-<section class="relative bg-[#F6FBF8] -mt-20 font-roboto overflow-hidden mb-32">
+<section class="relative bg-[#F6FBF8] mt-5 font-roboto overflow-hidden mb-32">
   <!-- Top content -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-10 sm:pt-16 md:pt-20 pb-20 sm:pb-32 md:pb-40 text-center">
     <span class="text-sm font-semibold text-lime-600">
@@ -134,7 +134,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       
       <!-- Centered Header Section -->
-      <div class="text-center mt-30 mb-8 md:mb-24 relative">
+      <div class="text-center mt-40 mb-8 md:mb-24 relative">
         <div class="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-32 sm:h-32 bg-orange-400/10 rounded-full blur-3xl"></div>
         
         <span class="inline-block text-xs sm:text-sm uppercase tracking-widest text-orange-400 font-semibold bg-lime-700/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 relative z-10">
@@ -154,158 +154,198 @@
         </div>
       </div>
 
-      <!-- Linear Content Sections -->
-      <div class="space-y-12 sm:space-y-16 md:space-y-20 lg:space-y-32">
-        
-        <!-- Section 1 -->
-        <div class="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-16 group">
-          <!-- Image & Chart Container -->
-          <div class="lg:w-2/5 relative w-full">
-            <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img src="/images/demu30.jpg"
-                alt="Governance meeting with team collaboration"
-                class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-lime-800/60 to-transparent"></div>
-              
-              <!-- Chart overlay -->
-              <div class="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 scale-75 sm:scale-100">
-                <div class="relative bg-white/10 backdrop-blur-sm p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl">
-                  <!-- DonutChart component - ensure it's responsive -->
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 sm:border-8 border-white/30 flex items-center justify-center">
-                    <span class="text-white font-bold text-sm sm:text-base">100%</span>
-                  </div>
-                  <div class="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-orange-500 text-white text-xs font-bold px-2 py-0.5 sm:px-3 sm:py-1 rounded-full shadow">
-                    100%
-                  </div>
-                </div>
+      <!-- Horizontal Content Sections -->
+<div class="relative">
+  <!-- Background Decoration -->
+  <div class="absolute inset-0 bg-gradient-to-b from-emerald-900/20 to-transparent"></div>
+  
+  
+  <!-- Horizontal Container -->
+  <div class="overflow-x-auto lg:overflow-x-visible py-6 sm:py-12">
+    <div class="flex flex-col lg:flex-row lg:space-x-7 xl:space-x-12 min-w-max lg:min-w-0">
+      
+      <!-- Section 1 - Governance -->
+      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0 mb-8 lg:mb-0">
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+          <!-- Header with Chart -->
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <div class="inline-flex items-center gap-2 mb-3">
+                <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
+                <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
+                  Foundation
+                </span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+                Governance & Controls
+              </h3>
+            </div>
+            <!-- Chart Circle -->
+            <div class="relative">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-lg sm:text-xl">100%</span>
+              </div>
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                100%
               </div>
             </div>
           </div>
-          
+
+          <!-- Image -->
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+            <img src="/images/demu25.jpeg"
+              alt="Governance meeting with team collaboration"
+              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+            />
+            
+          </div>
+
           <!-- Content -->
-          <div class="lg:w-3/5 text-center lg:text-left mt-4 sm:mt-0">
-            <div class="inline-flex items-center gap-2 mb-4 sm:mb-6">
-              <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
-              <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
-                Foundation
-              </span>
-            </div>
-            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
-              Governance & Controls
-            </h3>
-            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-emerald-100">
-              Strong governance and internal controls protect capital,
-              enforce accountability, and enable disciplined scaling across
-              all operational facets.
-            </p>
-            <div class="mt-4 sm:mt-6 md:mt-8 flex flex-wrap gap-2 justify-center lg:justify-start">
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Risk Management</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Compliance</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Strategic Oversight</span>
-            </div>
+          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+            Strong governance and internal controls protect capital,
+            enforce accountability, and enable disciplined scaling across
+            all operational facets.
+          </p>
+
+          <!-- Tags -->
+          <div class="flex flex-wrap gap-2 sm:gap-3">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Risk Management
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Compliance
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Strategic Oversight
+            </span>
           </div>
         </div>
-
-        <!-- Section 2 -->
-        <div class="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-16 group">
-          <!-- Content -->
-          <div class="lg:w-3/5 text-center lg:text-right lg:order-1">
-            <div class="inline-flex items-center gap-2 mb-4 sm:mb-6 justify-center lg:justify-end">
-              <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
-              <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
-                Empowerment
-              </span>
-            </div>
-            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-emerald-200 to-white bg-clip-text text-transparent">
-              Client Education
-            </h3>
-            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-emerald-100">
-              Financial literacy and relationship-led engagement strengthen
-              MSMEs while improving repayment behavior and portfolio quality
-              through informed decision-making.
-            </p>
-            <div class="mt-4 sm:mt-6 md:mt-8 flex flex-wrap gap-2 justify-center lg:justify-end">
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Financial Literacy</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Workshops</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Advisory Services</span>
-            </div>
-          </div>
-          
-          <!-- Image & Chart Container -->
-          <div class="lg:w-2/5 relative lg:order-2 w-full mt-4 sm:mt-0">
-            <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img src="/images/demu30.jpg"
-                alt="Education workshop with participants learning"
-                class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-lime-800/60 to-transparent"></div>
-              
-              <!-- Chart overlay -->
-              <div class="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 scale-75 sm:scale-100">
-                <div class="relative bg-white/10 backdrop-blur-sm p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl">
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 sm:border-8 border-white/30 flex items-center justify-center">
-                    <span class="text-white font-bold text-sm sm:text-base">95%</span>
-                  </div>
-                  <div class="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-orange-500 text-white text-xs font-bold px-2 py-0.5 sm:px-3 sm:py-1 rounded-full shadow">
-                    95%
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Section 3 -->
-        <div class="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 lg:gap-16 group">
-          <!-- Image & Chart Container -->
-          <div class="lg:w-2/5 relative w-full">
-            <div class="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg sm:shadow-2xl">
-              <img src="/images/demu30.jpg"
-                alt="Data analytics and team collaboration"
-                class="w-full h-48 sm:h-64 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-700"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-lime-800/60 to-transparent"></div>
-              
-              <!-- Chart overlay -->
-              <div class="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 scale-75 sm:scale-100">
-                <div class="relative bg-white/10 backdrop-blur-sm p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl">
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 sm:border-8 border-white/30 flex items-center justify-center">
-                    <span class="text-white font-bold text-sm sm:text-base">92%</span>
-                  </div>
-                  <div class="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-orange-500 text-white text-xs font-bold px-2 py-0.5 sm:px-3 sm:py-1 rounded-full shadow">
-                    92%
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Content -->
-          <div class="lg:w-3/5 text-center lg:text-left mt-4 sm:mt-0">
-            <div class="inline-flex items-center gap-2 mb-4 sm:mb-6">
-              <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
-              <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
-                Optimization
-              </span>
-            </div>
-            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
-              People & Data Strategy
-            </h3>
-            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-emerald-100">
-              Data aligns talent, training, and incentives—turning insight
-              into execution across the organization for continuous
-              improvement and strategic advantage.
-            </p>
-            <div class="mt-4 sm:mt-6 md:mt-8 flex flex-wrap gap-2 justify-center lg:justify-start">
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Analytics</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Talent Development</span>
-              <span class="inline-block bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm">Performance Metrics</span>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <!-- Section 2 - Education -->
+      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0 mb-8 lg:mb-0">
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+          <!-- Header with Chart -->
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <div class="inline-flex items-center gap-2 mb-3">
+                <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
+                <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
+                  Empowerment
+                </span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+                Client Education
+              </h3>
+            </div>
+            <!-- Chart Circle -->
+            <div class="relative">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-lg sm:text-xl">95%</span>
+              </div>
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                95%
+              </div>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+            <img src="/images/demu10.jpg"
+              alt="Education workshop with participants learning"
+              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+            />
+            
+          </div>
+
+          <!-- Content -->
+          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+            Financial literacy and relationship-led engagement strengthen
+            MSMEs while improving repayment behavior and portfolio quality
+            through informed decision-making.
+          </p>
+
+          <!-- Tags -->
+          <div class="flex flex-wrap gap-2 sm:gap-3">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Financial Literacy
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Workshops
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Advisory Services
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 - Strategy -->
+      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0">
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+          <!-- Header with Chart -->
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <div class="inline-flex items-center gap-2 mb-3">
+                <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
+                <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
+                  Optimization
+                </span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+                People & Data Strategy
+              </h3>
+            </div>
+            <!-- Chart Circle -->
+            <div class="relative">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-lg sm:text-xl">92%</span>
+              </div>
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                92%
+              </div>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+            <img src="/images/demu11.jpg"
+              alt="Data analytics and team collaboration"
+              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+            />
+            
+          </div>
+
+          <!-- Content -->
+          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+            Data aligns talent, training, and incentives—turning insight
+            into execution across the organization for continuous
+            improvement and strategic advantage.
+          </p>
+
+          <!-- Tags -->
+          <div class="flex flex-wrap gap-2 sm:gap-3">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Analytics
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Talent Development
+            </span>
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+              Performance Metrics
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  
+</div>
+
+
 
       <!-- CTA Section -->
       <div class="relative z-10 px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16 text-center mt-8 sm:mt-12">
@@ -354,7 +394,7 @@
 
     <!-- Background Image -->
     <img 
-      src="/images/demu30.jpg" 
+      src="/images/demu9.jpg" 
       alt="background"
       class="absolute inset-0 w-full h-full object-cover brightness-70 saturate-90 blur-[1px]"
     >
@@ -731,7 +771,7 @@ const impacts = [
   {
     id: 1,
     title: "Who We Serve",
-    image: "/images/demu30.jpg",
+    image: "/images/demu8.jpg",
     description:
       "Demulla serves economically active entrepreneurs who are often excluded from formal financial systems. Our core customers include low-income individuals engaged in income-generating activities, small business owners across trade and services, and women entrepreneurs who play a central role in household and community economic stability.",
     stats: [
@@ -744,7 +784,7 @@ const impacts = [
   {
     id: 2,
     title: "Scale & National Impact",
-    image: "/images/demu30.jpg",
+    image: "/images/demu16.jpeg",
     description:
       "From our beginnings in Malaba, Demulla has grown into a national institution with a strong community footprint. Today, we operate across Kenya with teams embedded in local markets, enabling close relationships, disciplined lending, and sustainable impact at scale.",
     stats: [
@@ -761,13 +801,13 @@ const impacts = [
 // Refs & Data
 // -----------------------------
 const images = [
-  { src: "/images/demu30.jpg", year: 2017, story: 'Our journey begins' },
-  { src: "/images/demu30.jpg", year: 2019, story: 'First milestone achieved' },
-  { src: "/images/demu30.jpg", year: 2021, story: 'Expanded to new areas' },
-  { src: "/images/demu30.jpg", year: 2023, story: 'Major growth' },
-  { src: "/images/demu30.jpg", year: 2024, story: 'Reaching new heights' },
-  { src: "/images/demu30.jpg", year: 2025, story: 'Empowering Communities'},
-  {src: "/images/demu30.jpg",year: 2026, story: 'Leading the Future'}
+  { src: "/images/demu3.jpg", year: 2017, story: 'Our journey begins' },
+  { src: "/images/demu8.jpg", year: 2019, story: 'First milestone achieved' },
+  { src: "/images/demu9.jpg", year: 2021, story: 'Expanded to new areas' },
+  { src: "/images/demu31.jpg", year: 2023, story: 'Major growth' },
+  { src: "/images/demu33.jpg", year: 2024, story: 'Reaching new heights' },
+  { src: "/images/demu22.jpeg", year: 2025, story: 'Empowering Communities'},
+  {src: "/images/demu25.jpeg",year: 2026, story: 'Leading the Future'}
 
 ];
 

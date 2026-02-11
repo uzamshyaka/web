@@ -23,7 +23,7 @@
       <!-- Phone -->
       <div class="flex items-center gap-2">
         <a
-          href="tel:+254700000000"
+          href="https://demulla.ras.yeastar.com/live_chat.v1.0.0.js?channelNumber=LC00000"
           class="w-10 h-10 flex-shrink-0 flex items-center justify-center bg-lime-600 hover:bg-lime-700 text-white rounded-full shadow-md hover:scale-90 transition transform animate-bounce"
           aria-label="Call Us"
         >

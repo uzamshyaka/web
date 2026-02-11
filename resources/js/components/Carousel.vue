@@ -11,7 +11,7 @@
         <!-- Slide 1 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-orange-900/70 z-10"></div>
-          <img src="/images/dem.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
           
           <!-- Text slightly higher -->
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
@@ -33,7 +33,7 @@
         <!-- Slide 2 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-lime-600/70 z-10"></div>
-          <img src="/images/demu8.jpg" alt="Slide 2" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu1.jpg" alt="Slide 2" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -73,7 +73,7 @@
         <!-- Slide 4 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-700/50 z-10"></div>
-          <img src="/images/demu15.jpeg" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu2.jpg" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">
@@ -143,11 +143,11 @@
 
     </div>
 
-    <!-- "Who We Are" section remains unchanged -->
+    
     
 
 <!-- Floating "Who We Are" Section -->
-<div class="relative z-40 -mt-32 md:-mt-48 lg:-mt-64 px-4 md:px-6 lg:px-8">
+<div class="relative z-40 mt-5 md:-mt-48 lg:-mt-64 px-4 md:px-6 lg:px-8">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-700 rounded-2xl shadow-2xl p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">

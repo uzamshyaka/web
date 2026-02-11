@@ -5,8 +5,7 @@
   <div class="relative min-h-screen flex items-center overflow-hidden">
     <!-- Background Images Carousel -->
     <div class="absolute inset-0">
-      <img 
-        :src="demu2"
+      <img src="/images/demu2.jpg"
         alt="Demulla Impact Hero"
         class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
       />
@@ -47,7 +46,7 @@
             </div>
           </div>
         </div>
-        
+         
         <!-- Right: Featured Impact Story -->
         <div class="relative">
           <div class="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
@@ -129,8 +128,7 @@
         <!-- Story 1 -->
         <div class="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500">
           <div class="h-64 overflow-hidden">
-            <img 
-              :src="demu39" 
+            <img src="/images/demu39.jpg" 
               alt="Agriculture Impact Story"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
@@ -165,8 +163,7 @@
         <!-- Story 2 -->
         <div class="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500">
           <div class="h-64 overflow-hidden">
-            <img 
-              :src="demu1" 
+            <img src="demu1.jpg" 
               alt="Retail Impact Story"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
@@ -201,8 +198,7 @@
         <!-- Story 3 -->
         <div class="group relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500">
           <div class="h-64 overflow-hidden">
-            <img 
-              :src="demu40" 
+            <img src="demu40.jpg" 
               alt="Manufacturing Impact Story"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             />
