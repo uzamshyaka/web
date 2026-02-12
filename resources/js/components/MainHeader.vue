@@ -93,7 +93,7 @@
     >
       <!-- LOGO -->
       <div class="flex items-center space-x-2">
-        <img src="/images/demu56.jpg" alt="Demulla Logo" class="h-8 md:h-10 w-auto" />
+        <img src="/images/demu58.png" alt="Demulla Logo" class="h-8 md:h-10 w-auto" />
         <h1
           :class="scrolledPastCarousel ? 'text-lime-700' : 'text-white'"
           class="text-base md:text-2xl font-bold whitespace-nowrap"
