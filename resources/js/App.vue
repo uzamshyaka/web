@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
   <MainHeader :scrolledPastCarousel="scrolledPastCarousel" />
-  <component :is="currentPage"></component>
+  <main class="flex-grow">
+    <component :is="currentPage"></component>
+  </main>
   <MainFooter/>
     
   </div>

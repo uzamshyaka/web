@@ -7,6 +7,6 @@
 </head>
 <body>
     <script>window.page = "news";</script>
-    <div id="app" data-theme="colored"></div>
+    <div id="app" data-theme="default"></div>
 </body>
 </html>

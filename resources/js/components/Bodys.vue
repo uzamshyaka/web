@@ -4,9 +4,9 @@
 <template>
 
   
-<section class="relative bg-[#F6FBF8] mt-5 font-roboto overflow-hidden mb-32">
+<section class="relative bg-[#F6FBF8] mt-0 font-roboto overflow-hidden mb-0 sm:mb-16">
   <!-- Top content -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-10 sm:pt-16 md:pt-20 pb-20 sm:pb-32 md:pb-40 text-center">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-8 sm:pt-16 md:pt-20 pb-8 sm:pb-16 md:pb-20 text-center">
     <span class="text-sm font-semibold text-lime-600">
       Our Business Model
     </span>
@@ -27,7 +27,7 @@
   </div>
 
   <!-- Floating Cards - Responsive Container -->
-  <div class="relative sm:absolute inset-0 pointer-events-none mt-8 sm:mt-0">
+  <div class="hidden sm:block sm:absolute inset-0 pointer-events-none">
     <!-- Left Card - Mobile Positioning -->
     <div class="absolute left-4 sm:left-8 top-0 sm:top-30 bg-white rounded-xl shadow-lg p-4 sm:p-5 w-48 sm:w-56">
       <div class="flex items-center justify-between">
@@ -52,7 +52,7 @@
 
     <!-- Center Card - Responsive -->
     <div
-      class="absolute left-1/2 -translate-x-1/2 top-[280px] sm:top-[350px] md:top-[500px]
+      class="absolute left-1/2 -translate-x-1/2 top-[180px] sm:top-[280px] md:top-[400px]
              bg-white rounded-xl shadow-lg p-4 sm:p-6
              w-[90%] sm:w-[500px] md:w-[600px] 
              h-auto min-h-[220px] sm:h-[280px] md:h-[300px]
@@ -130,11 +130,11 @@
   </div>
 
   <!-- Green Section -->
-  <section class="bg-lime-600 text-white font-roboto py-12 md:py-24 lg:py-32 overflow-hidden mt-80 sm:mt-0">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <section class="bg-lime-600 text-white font-roboto py-12 md:py-24 lg:py-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
       
       <!-- Centered Header Section -->
-      <div class="text-center mt-40 mb-8 md:mb-24 relative">
+      <div class="text-center mt-6 sm:mt-12 md:mt-20 mb-6 md:mb-12 relative">
         <div class="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-32 sm:h-32 bg-orange-400/10 rounded-full blur-3xl"></div>
         
         <span class="inline-block text-xs sm:text-sm uppercase tracking-widest text-orange-400 font-semibold bg-lime-700/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 relative z-10">
@@ -161,61 +161,61 @@
   
   
   <!-- Horizontal Container -->
-  <div class="overflow-x-auto lg:overflow-x-visible py-6 sm:py-12">
-    <div class="flex flex-col lg:flex-row lg:space-x-7 xl:space-x-12 min-w-max lg:min-w-0">
+  <div class="py-4 sm:py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 xl:gap-6">
       
       <!-- Section 1 - Governance -->
-      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0 mb-8 lg:mb-0">
-        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+      <div>
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-4 sm:p-5 lg:p-6 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
           <!-- Header with Chart -->
-          <div class="flex items-start justify-between mb-6">
+          <div class="flex items-start justify-between mb-3 lg:mb-4">
             <div>
-              <div class="inline-flex items-center gap-2 mb-3">
+              <div class="inline-flex items-center gap-2 mb-2">
                 <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
                 <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
                   Foundation
                 </span>
               </div>
-              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+              <h3 class="text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent leading-tight">
                 Governance & Controls
               </h3>
             </div>
             <!-- Chart Circle -->
             <div class="relative">
-              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
-                <span class="text-white font-bold text-lg sm:text-xl">100%</span>
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-[6px] border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-base sm:text-lg">100%</span>
               </div>
-              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-lg">
                 100%
               </div>
             </div>
           </div>
 
           <!-- Image -->
-          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-3 lg:mb-4">
             <img src="/images/demu25.jpeg"
               alt="Governance meeting with team collaboration"
-              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+              class="w-full h-36 sm:h-44 lg:h-40 xl:h-44 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
             
           </div>
 
           <!-- Content -->
-          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+          <p class="text-sm sm:text-base leading-relaxed text-emerald-100 mb-4">
             Strong governance and internal controls protect capital,
             enforce accountability, and enable disciplined scaling across
             all operational facets.
           </p>
 
           <!-- Tags -->
-          <div class="flex flex-wrap gap-2 sm:gap-3">
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+          <div class="flex flex-wrap gap-1.5 sm:gap-2">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Risk Management
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Compliance
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Strategic Oversight
             </span>
           </div>
@@ -223,57 +223,57 @@
       </div>
 
       <!-- Section 2 - Education -->
-      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0 mb-8 lg:mb-0">
-        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+      <div>
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-4 sm:p-5 lg:p-6 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
           <!-- Header with Chart -->
-          <div class="flex items-start justify-between mb-6">
+          <div class="flex items-start justify-between mb-3 lg:mb-4">
             <div>
-              <div class="inline-flex items-center gap-2 mb-3">
+              <div class="inline-flex items-center gap-2 mb-2">
                 <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
                 <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
                   Empowerment
                 </span>
               </div>
-              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+              <h3 class="text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent leading-tight">
                 Client Education
               </h3>
             </div>
             <!-- Chart Circle -->
             <div class="relative">
-              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
-                <span class="text-white font-bold text-lg sm:text-xl">95%</span>
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-[6px] border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-base sm:text-lg">95%</span>
               </div>
-              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-lg">
                 95%
               </div>
             </div>
           </div>
 
           <!-- Image -->
-          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-3 lg:mb-4">
             <img src="/images/demu10.jpg"
               alt="Education workshop with participants learning"
-              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+              class="w-full h-36 sm:h-44 lg:h-40 xl:h-44 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
             
           </div>
 
           <!-- Content -->
-          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+          <p class="text-sm sm:text-base leading-relaxed text-emerald-100 mb-4">
             Financial literacy and relationship-led engagement strengthen
             MSMEs while improving repayment behavior and portfolio quality
             through informed decision-making.
           </p>
 
           <!-- Tags -->
-          <div class="flex flex-wrap gap-2 sm:gap-3">
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+          <div class="flex flex-wrap gap-1.5 sm:gap-2">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Financial Literacy
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Workshops
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Advisory Services
             </span>
           </div>
@@ -281,57 +281,57 @@
       </div>
 
       <!-- Section 3 - Strategy -->
-      <div class="min-w-[90vw] sm:min-w-[85vw] lg:min-w-0 lg:w-1/3 flex-shrink-0">
-        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
+      <div>
+        <div class="bg-gradient-to-br from-lime-900/40 to-lime-900/30 rounded-2xl sm:rounded-3xl p-4 sm:p-5 lg:p-6 h-full border border-emerald-700/30 hover:border-emerald-500/50 transition-all duration-300 group hover:shadow-2xl hover:shadow-emerald-900/20">
           <!-- Header with Chart -->
-          <div class="flex items-start justify-between mb-6">
+          <div class="flex items-start justify-between mb-3 lg:mb-4">
             <div>
-              <div class="inline-flex items-center gap-2 mb-3">
+              <div class="inline-flex items-center gap-2 mb-2">
                 <div class="w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full"></div>
                 <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-orange-300">
                   Optimization
                 </span>
               </div>
-              <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+              <h3 class="text-xl sm:text-2xl lg:text-xl xl:text-2xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent leading-tight">
                 People & Data Strategy
               </h3>
             </div>
             <!-- Chart Circle -->
             <div class="relative">
-              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-8 border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
-                <span class="text-white font-bold text-lg sm:text-xl">92%</span>
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-[6px] border-white/20 bg-white/5 backdrop-blur-sm flex items-center justify-center">
+                <span class="text-white font-bold text-base sm:text-lg">92%</span>
               </div>
-              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+              <div class="absolute -top-1 -right-1 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-lg">
                 92%
               </div>
             </div>
           </div>
 
           <!-- Image -->
-          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-6">
+          <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-3 lg:mb-4">
             <img src="/images/demu11.jpg"
               alt="Data analytics and team collaboration"
-              class="w-full h-48 sm:h-56 object-cover transform group-hover:scale-110 transition-transform duration-700"
+              class="w-full h-36 sm:h-44 lg:h-40 xl:h-44 object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
             
           </div>
 
           <!-- Content -->
-          <p class="text-base sm:text-lg leading-relaxed text-emerald-100 mb-6">
+          <p class="text-sm sm:text-base leading-relaxed text-emerald-100 mb-4">
             Data aligns talent, training, and incentives—turning insight
             into execution across the organization for continuous
             improvement and strategic advantage.
           </p>
 
           <!-- Tags -->
-          <div class="flex flex-wrap gap-2 sm:gap-3">
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+          <div class="flex flex-wrap gap-1.5 sm:gap-2">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Analytics
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Talent Development
             </span>
-            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-4 py-2 rounded-full text-xs sm:text-sm font-medium backdrop-blur-sm">
+            <span class="inline-block bg-white/10 hover:bg-white/20 transition-all px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm">
               Performance Metrics
             </span>
           </div>
@@ -387,10 +387,10 @@
   
 
 
- <section class="relative flex items-center mb-32 bg-[#F6FBF8] justify-center min-h-screen px-6  -mt-50">
+ <section class="relative flex items-center mb-12 sm:mb-20 bg-[#F6FBF8] justify-center min-h-[500px] sm:min-h-[600px] px-4 sm:px-6 py-8 sm:py-12">
 
   <!-- ⭐ Rounded Container That Holds the Background -->
-  <div class="relative max-w-6xl w-full min-h-[250px] rounded-3xl overflow-hidden shadow-2xl -mt-50">
+  <div class="relative max-w-6xl w-full min-h-[450px] sm:min-h-[500px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
 
     <!-- Background Image -->
     <img 
@@ -406,28 +406,28 @@
     <div class="absolute inset-0 bg-gradient-to-l from-white/40 via-transparent to-transparent z-20"></div>
 
     <!-- Centered Card Inside the Rounded Background -->
-    <div class="relative z-30 flex items-center justify-center h-full p-8">
+    <div class="relative z-30 flex items-center justify-center h-full p-4 sm:p-8">
       
-      <div class="bg-white/95 rounded-3xl shadow-xl max-w-3xl w-full p-12 min-h-[450px] text-center backdrop-blur-md">
+      <div class="bg-white/95 rounded-2xl sm:rounded-3xl shadow-xl max-w-3xl w-full p-6 sm:p-10 min-h-[380px] text-center backdrop-blur-md">
         
         <!-- Icon -->
-        <div class="w-20 h-20 bg-lime-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-          <i class="fas fa-hand-holding-dollar text-white text-3xl"></i>
+        <div class="w-16 h-16 sm:w-20 sm:h-20 bg-lime-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-lg">
+          <i class="fas fa-hand-holding-dollar text-white text-2xl sm:text-3xl"></i>
         </div>
 
-        <h1 class="text-4xl md:text-5xl font-bold text-lime-600 mb-4">
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-bold text-lime-600 mb-3 sm:mb-4">
           Fast, Affordable Loan Solutions for Businesses
         </h1>
 
-        <p class="text-3xl text-lg leading-relaxed mb-8 max-w-xl mx-auto">
+        <p class="text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 max-w-xl mx-auto">
           Keep your business moving  — simple, fast, and reliable support.
         </p>
 
-        <div class="flex flex-wrap justify-center gap-4">
-          <a class="bg-lime-600 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:bg-lime-500 transition-transform hover:-translate-y-1">
+        <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
+          <a class="bg-lime-600 text-white font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-full shadow-md hover:bg-lime-500 transition-transform hover:-translate-y-1 text-sm sm:text-base">
             Get Started
           </a>
-          <a class="border-2 border-lime-600 text-lime-600 font-semibold px-8 py-3 rounded-full hover:bg-lime-50 transition-transform hover:-translate-y-1">
+          <a class="border-2 border-lime-600 text-lime-600 font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-full hover:bg-lime-50 transition-transform hover:-translate-y-1 text-sm sm:text-base">
             Learn More
           </a>
         </div>
@@ -441,14 +441,14 @@
 </section>
   
 
-<section class="space-y-32 -mt-30 pt-10">
+<section class="space-y-12 sm:space-y-20 pt-8 px-4 sm:px-6">
 
   <!-- SECTION HEADING -->
   <div class="text-center">
-    <h2 class="text-4xl font-semibold leading-tight text-lime-600">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight text-lime-600">
       Who We Serve & Our Impact
     </h2>
-    <p class="mt-4 max-w-3xl text-lg leading-relaxed mx-auto text-gray-600">
+    <p class="mt-3 sm:mt-4 max-w-3xl text-base sm:text-lg leading-relaxed mx-auto text-gray-600 px-4">
       We serve economically active entrepreneurs often excluded from formal finance,
       combining deep community presence with measurable national impact.
     </p>
@@ -462,10 +462,10 @@
   >
 
     <!-- ROW 1: IMAGE + TEXT -->
-    <div class="grid grid-cols-1 md:grid-cols-2 min-h-[420px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 min-h-[300px] sm:min-h-[420px]">
 
       <!-- IMAGE -->
-      <div class="relative h-full overflow-hidden">
+      <div class="relative h-[250px] sm:h-[350px] md:h-full overflow-hidden">
         <img
           :src="impact.image"
           class="absolute inset-0 w-full h-full object-cover"
@@ -487,18 +487,18 @@
       </div>
 
       <!-- GLASS TEXT -->
-      <div class="flex items-center justify-center h-[420px] bg-gray-50">
+      <div class="flex items-center justify-center min-h-[300px] sm:min-h-[420px] bg-gray-50 p-4 sm:p-8">
         <div
           class="backdrop-blur-2xl
                  border border-white/30
-                 p-8 rounded-2xl
+                 p-6 sm:p-8 rounded-2xl
                  shadow-[0_8px_32px_rgba(0,0,0,0.15)]
-                 max-w-sm"
+                 max-w-sm w-full"
         >
-          <h3 class="text-2xl font-bold text-lime-600">
+          <h3 class="text-xl sm:text-2xl font-bold text-lime-600">
             {{ impact.title }}
           </h3>
-          <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+          <p class="mt-3 sm:mt-4 text-gray-700 text-base sm:text-lg leading-relaxed">
             {{ impact.description }}
           </p>
         </div>
@@ -507,8 +507,8 @@
     </div>
 
     <!-- ROW 2: METRICS -->
-    <div class="bg-white py-16">
-      <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12">
+    <div class="bg-white py-8 sm:py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-12">
 
         <div
           v-for="stat in impact.stats"
@@ -517,12 +517,12 @@
         >
           <component
             :is="stat.icon"
-            class="w-10 h-10 text-lime-600 mb-4"
+            class="w-8 h-8 sm:w-10 sm:h-10 text-lime-600 mb-2 sm:mb-4"
           />
-          <p class="text-3xl font-bold text-lime-600">
+          <p class="text-2xl sm:text-3xl font-bold text-lime-600">
             {{ stat.value }}
           </p>
-          <p class="text-sm text-orange-500 uppercase tracking-wide">
+          <p class="text-xs sm:text-sm text-orange-500 uppercase tracking-wide">
             {{ stat.label }}
           </p>
         </div>
@@ -535,16 +535,16 @@
 </section>
 
 
-<section class="relative w-full max-w-7xl font-roboto mx-auto pt-16 pb-28 mb-32">
+<section class="relative w-full max-w-7xl font-roboto mx-auto pt-8 sm:pt-12 pb-16 sm:pb-20 mb-12 sm:mb-20 px-4 sm:px-6">
 
   <!-- TEXT CONTENT -->
-  <div class="text-center space-y-4 mb-10">
+  <div class="text-center space-y-3 sm:space-y-4 mb-8 sm:mb-10">
 
-    <h2 class="text-4xl font-semibold leading-tight text-lime-600">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight text-lime-600">
       Our Success Stories and What Comes Next
     </h2>
 
-    <p class="text-lg leading-relaxed text-gray-700">
+    <p class="text-base sm:text-lg leading-relaxed text-gray-700">
       Trusted by leaders from diverse industries and communities.
     </p>
 
@@ -566,12 +566,12 @@
   <!-- BUTTON -->
   <div class="text-center mb-6">
     <button
-      class="bg-orange-400 hover:bg-orange-500 text-white font-medium py-3 px-8
-             rounded-lg inline-flex items-center"
+      class="bg-orange-400 hover:bg-orange-500 text-white font-medium py-2.5 sm:py-3 px-6 sm:px-8
+             rounded-lg inline-flex items-center text-sm sm:text-base"
     >
       Read Success Stories
       <svg
-        class="w-4 h-4 ml-2"
+        class="w-3.5 h-3.5 sm:w-4 sm:h-4 ml-2"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -586,81 +586,72 @@
     </button>
   </div>
 
-  <!-- IMAGE CURVE -->
-  <div class="relative w-full h-[250px] overflow-visible px-5 pt-16">
-
-    <div
-      v-for="(img, i) in images"
-      :key="i"
-      class="absolute w-36 h-52 rounded-xl overflow-hidden shadow-2xl
-             transition-all duration-1000"
-      :style="curve(i, images.length, containerWidth)"
-    >
-      <img
-        :src="img.src"
-        class="w-full h-full object-cover rounded-xl"
-      />
-
+  <!-- IMAGE TIMELINE -->
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-3 sm:gap-4">
       <div
-        class="absolute bottom-0 left-1/2 -translate-x-1/2
-               text-center text-white bg-black/50
-               rounded-t px-3 py-1 w-full"
+        v-for="(img, i) in images"
+        :key="i"
+        class="relative rounded-xl overflow-hidden shadow-lg group"
       >
-        <p class="font-bold text-sm">
-          {{ img.year }}
-        </p>
-        <p class="text-xs">
-          {{ img.story }}
-        </p>
+        <div class="aspect-[3/4]">
+          <img
+            :src="img.src"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 text-center text-white bg-black/60 px-1 py-1.5">
+          <p class="font-bold text-xs sm:text-sm">{{ img.year }}</p>
+          <p class="text-[9px] sm:text-xs leading-tight">{{ img.story }}</p>
+        </div>
       </div>
     </div>
-
   </div>
 
 </section>
 
 
-<section class="relative py-20 mb-32 bg-lime-600 overflow-hidden">
+<section class="relative py-12 sm:py-20 mb-16 sm:mb-32 bg-lime-600 overflow-hidden">
 
   <!-- Background Grid -->
   <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.15)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.15)_1px,transparent_1px)] bg-[size:60px_60px]"></div>
 
-  <div class="relative max-w-7xl mx-auto px-6 text-center">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
 
     <!-- Heading -->
-    <div class="mb-12 max-w-3xl mx-auto">
-      <h2 class="text-4xl font-semibold text-white leading-tight mb-4">
+    <div class="mb-8 sm:mb-12 max-w-3xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight mb-3 sm:mb-4">
         Trusted Voices
       </h2>
-      <p class="text-lg text-white/90 leading-relaxed">
+      <p class="text-base sm:text-lg text-white/90 leading-relaxed">
         Hear directly from our clients and partners about their experiences 
         working with Demulla.
       </p>
     </div>
 
     <!-- Testimonial Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10">
 
       <div
         v-for="(testimonial, index) in testimonials"
         :key="index"
         class="bg-white/20 backdrop-blur-lg border border-white/30
-               rounded-2xl p-8 shadow-lg hover:shadow-xl transition"
+               rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition"
       >
-        <div class="flex items-center mb-4">
+        <div class="flex items-center mb-3 sm:mb-4">
           <img
             :src="testimonial.avatar"
-            class="w-14 h-14 rounded-full object-cover mr-4"
+            class="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover mr-3 sm:mr-4"
           />
           <div>
-            <h3 class="font-semibold text-white text-lg">
+            <h3 class="font-semibold text-white text-base sm:text-lg">
               {{ testimonial.name }}
             </h3>
-            <p class="text-sm text-white/70">{{ testimonial.role }}</p>
+            <p class="text-xs sm:text-sm text-white/70">{{ testimonial.role }}</p>
           </div>
         </div>
 
-        <p class="text-white/90 text-lg leading-relaxed mt-4">
+        <p class="text-white/90 text-sm sm:text-lg leading-relaxed mt-3 sm:mt-4">
           "{{ testimonial.quote }}"
         </p>
       </div>
@@ -676,52 +667,53 @@
  
  
  <!-- ===================== CLIENT TESTIMONIALS ===================== -->
-<section class="py-24 bg-white mt-10 mb-32">
-  <div class="max-w-6xl mx-auto px-6">
+<section class="py-12 sm:py-24 bg-white mt-6 sm:mt-10 mb-16 sm:mb-32">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
     <!-- Section Heading -->
-    <h2 class="text-4xl font-roboto font-semibold leading-tight text-lime-600 mb-12 text-center">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-roboto font-semibold leading-tight text-lime-600 mb-8 sm:mb-12 text-center">
       What people say about us
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12">
 
       <!-- Testimonial 1 -->
-      <div class="relative  aspect-video rounded-2xl shadow-lg overflow-hidden
+      <div class="relative aspect-video rounded-xl sm:rounded-2xl shadow-lg overflow-hidden
             bg-gradient-to-r from-green-900 to-lime-400">
 
-  <!-- Video -->
-  <iframe
-    class="absolute inset-0 w-full h-full z-10"
-    src="https://www.youtube.com/embed/kSW2lxVJ8d0?si=CrYqYLv2DWYHHk6b"
-    title="Client Video Testimonial"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+        <!-- Video -->
+        <iframe
+          class="absolute inset-0 w-full h-full z-10"
+          src="https://www.youtube.com/embed/kSW2lxVJ8d0?si=CrYqYLv2DWYHHk6b"
+          title="Client Video Testimonial"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
 
-  <!-- Gradient overlay (lets background show) -->
-  <div class="absolute inset-0 bg-black/30 z-20 pointer-events-none"></div>
+        <!-- Gradient overlay (lets background show) -->
+        <div class="absolute inset-0 bg-black/30 z-20 pointer-events-none"></div>
 
-</div>
+      </div>
 
 
       <!-- Testimonial 2 -->
-      <div class="relative bg-gradient-to-r from-green-900 to-lime-400 rounded-2xl overflow-hidden ">
+      <div class="relative aspect-video bg-gradient-to-r from-green-900 to-lime-400 rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
         <!-- Video Embed -->
         
-          <iframe 
-            class="absolute inset-0 w-full h-full z-10" 
-            src="https://www.youtube.com/embed/5d-7qnrwnuI?si=osJHmppBRZH2hZHr" 
-            title="Client Video Testimonial" 
-            frameborder="0" 
-            allowfullscreen>
-          </iframe>
-        </div>
+        <iframe 
+          class="absolute inset-0 w-full h-full z-10" 
+          src="https://www.youtube.com/embed/5d-7qnrwnuI?si=osJHmppBRZH2hZHr" 
+          title="Client Video Testimonial" 
+          frameborder="0" 
+          allowfullscreen>
+        </iframe>
         <!-- Quote -->
-        <div class="absolute inset-0 bg-black/30 z-10 pointer-events-none"></div>
-        </div>
-        </div>
-      </section>
+        <div class="absolute inset-0 bg-black/30 z-20 pointer-events-none"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
   
   
 

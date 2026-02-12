@@ -6,9 +6,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <script>  window.page = "service"
-    console.log("Window page:", window.page)
-console.log("Resolved page:", pages[window.page]) ;  </script>
-    <div id="app" data-theme="dark"></div>
+    <script>window.page = "service";</script>
+    <div id="app" data-theme="default"></div>
 </body>
 </html>
