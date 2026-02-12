@@ -72,7 +72,7 @@
 
         <!-- Slide 4 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-700/50 z-10"></div>
+          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-900/90 z-10"></div>
           <img src="/images/demu2.jpg" alt="Slide 4" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
@@ -92,8 +92,8 @@
 
         <!-- Slide 5 -->
         <div class="w-full h-full flex-shrink-0 relative">
-          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-lime-600/50 z-10"></div>
-          <img src="/images/demu15.jpeg" alt="Slide 5" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <div class="absolute inset-0 bg-gradient-to-r  from-black/60 via-black/70 to-orange-900/90 z-10"></div>
+          <img src="/images/demu14.jpeg" alt="Slide 5" class="absolute inset-0 w-full h-full object-cover object-center"/>
           <div class="relative z-20 h-full flex items-start justify-center pt-24 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto px-8 md:px-12 lg:px-16 xl:px-20 w-full">
               <div class="max-w-2xl text-center md:text-left">

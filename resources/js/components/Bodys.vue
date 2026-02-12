@@ -771,7 +771,7 @@ const impacts = [
   {
     id: 1,
     title: "Who We Serve",
-    image: "/images/demu8.jpg",
+    image: "/images/demu57.png",
     description:
       "Demulla serves economically active entrepreneurs who are often excluded from formal financial systems. Our core customers include low-income individuals engaged in income-generating activities, small business owners across trade and services, and women entrepreneurs who play a central role in household and community economic stability.",
     stats: [

@@ -5,7 +5,7 @@
   <div class="relative min-h-screen flex items-center overflow-hidden">
     <!-- Background Images Carousel -->
     <div class="absolute inset-0">
-      <img src="/images/demu2.jpg"
+      <img src="/images/demu8.jpg"
         alt="Demulla Impact Hero"
         class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
       />
