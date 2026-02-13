@@ -108,32 +108,20 @@
       <!-- DESKTOP LINKS -->
       <ul class="hidden lg:flex items-center space-x-2 xl:space-x-3 font-semibold text-sm">
         <li>
-main
-          <a href="/"
-            :class="isActive('home') ? 'bg-orange-400 text-white border-orange-400' : 'border-transparent hover:bg-orange-400 hover:text-white'"
-            class="border px-4 py-2 rounded-md transition duration-300"
-          >Home</a>
 
           <a
             href="/"
           class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition"
             >Home</a
           >
-main
+
         </li>
         <li>
-main
-          <a href="/impact"
-            :class="isActive('impact') ? 'bg-orange-400 text-white border-orange-400' : 'border-transparent hover:bg-orange-400 hover:text-white'"
-            class="border px-4 py-2 rounded-md transition duration-300"
-          >Impact</a>
-
-          <a
+            <a
             href="/impact"
           class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition"
             >Impact</a
           >
-main
         </li>
         <li>
           <a href="/service"
@@ -164,13 +152,6 @@ main
             class="border px-4 py-2 rounded-md transition duration-300"
           >Contact</a>
         </li>
-main
-
-        <li><a href="/about" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">About Us</a></li>
-        <li><a href="#" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">Career</a></li>
-        <li><a href="/news" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">News</a></li>
-        <li><a href="/contact" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">Contact</a></li>
-main
       </ul>
 
       <!-- MOBILE MENU BUTTON -->
@@ -283,35 +264,9 @@ const navBarClasses = computed(() => {
 <style scoped>
 header {
   font-family: "Roboto", sans-serif;
-}
+}b 
 
-/* Ensure proper touch targets on mobile */
-@media (max-width: 640px) {
-  a, button {
-    min-height: 40px;
-    min-width: 40px;
-  }
-  
-  /* Compact text on mobile */
-  .text-xs {
-    font-size: 0.7rem;
-    line-height: 1;
-  }
-  
-  .mobile-menu a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Better spacing for top bar items */
-  .top-bar-item {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
+
 
 /* Prevent horizontal overflow */
 header {

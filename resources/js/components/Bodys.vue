@@ -134,8 +134,8 @@
     <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
       
       <!-- Centered Header Section -->
-      <div class="text-center mt-6 sm:mt-12 md:mt-20 mb-6 md:mb-12 relative">
-        <div class="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-32 sm:h-32 bg-orange-400/10 rounded-full blur-3xl"></div>
+      <div class="text-center mt-10 sm:mt-12 md:mt-20 mb-6 md:mb-12 relative">
+        <div class="absolute top-50 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-32 sm:h-32 bg-orange-400/10 rounded-full blur-3xl"></div>
         
         <span class="inline-block text-xs sm:text-sm uppercase tracking-widest text-orange-400 font-semibold bg-lime-700/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 relative z-10">
           Model Enablers
@@ -465,7 +465,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 min-h-[300px] sm:min-h-[420px]">
 
       <!-- IMAGE -->
-      <div class="relative h-[250px] sm:h-[350px] md:h-full overflow-hidden">
+      <div class="relative h-[250px] sm:h-[500px] md:h-full overflow-hidden">
         <img
           :src="impact.image"
           class="absolute inset-0 w-full h-full object-cover"
@@ -594,13 +594,13 @@
         :key="i"
         class="relative rounded-xl overflow-hidden shadow-lg group"
       >
-        <div class="aspect-[3/4]">
+       
           <img
             :src="img.src"
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-        </div>
-        <div class="absolute bottom-0 left-0 right-0 text-center text-white bg-black/60 px-1 py-1.5">
+        
+        <div class="absolute bottom-0 left-0 right-0 text-center text-white bg-black/30 px-1 py-1.5">
           <p class="font-bold text-xs sm:text-sm">{{ img.year }}</p>
           <p class="text-[9px] sm:text-xs leading-tight">{{ img.story }}</p>
         </div>

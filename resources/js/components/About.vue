@@ -9,8 +9,7 @@
       <div class="absolute inset-0 bg-gradient-to-r from-lime-900/70 via-black/40 to-transparent z-10"></div>
 
       <!-- Background Image --> 
-      <img
-        :src="demu3"
+      <img src="/images/demu3.jpg"
         alt="demulla1"
         class="absolute inset-0 w-full h-150 object-cover brightness-105 contrast-100"
       />
@@ -42,7 +41,7 @@
   </div>
 </section>
 
-   <section class="relative -mt-65 z-20 px-4 md:px-10 lg:px-28">
+   <section class="relative -mt-15 z-20 px-4 md:px-10 lg:px-28">
   <div class="max-w-6xl mx-auto">
 
     <!-- Single Card -->
@@ -161,8 +160,7 @@
 
       <!-- LEFT IMAGE -->
       <div class="relative w-45px h-[400px] overflow-hidden">
-  <img 
-    :src="demuImage1"
+  <img src="/images/demu1.jpg"
     class="w-full h-full object-cover rounded-r-[120px]"
   />
 </div>

@@ -23,7 +23,7 @@
                   <span class="w-2 h-2 bg-orange-400 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
                   <span class="text-xs sm:text-sm font-semibold text-orange-200">Innovation</span>
                 </div>
-                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                   From Malaba to Africa:
                   <span class="text-lime-400 block mt-2 sm:mt-4">Transforming MSMEs</span>
                 </h1>
@@ -43,7 +43,7 @@
                   <span class="w-2 h-2 bg-lime-400 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
                   <span class="text-xs sm:text-sm font-semibold text-lime-200">Honesty</span>
                 </div>
-                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                   Empowering Growth,
                   <span class="text-lime-400 block mt-2 sm:mt-4">Driving Impact</span>
                 </h1>
@@ -63,7 +63,7 @@
                   <span class="w-2 h-2 bg-lime-400 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
                   <span class="text-xs sm:text-sm font-semibold text-lime-200">Team Work</span>
                 </div>
-                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                   48 Branches. 56,000+ MSMEs.
                   <span class="text-lime-400 block mt-2 sm:mt-4">One Goal: Transformation</span>
                 </h1>
@@ -83,7 +83,7 @@
                   <span class="w-2 h-2 bg-orange-400 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
                   <span class="text-xs sm:text-sm font-semibold text-orange-200">Technology</span>
                 </div>
-                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                   Fueling Innovation
                   <span class="text-orange-400 block mt-2 sm:mt-4">That Expands Access</span>
                 </h1>
@@ -103,7 +103,7 @@
                   <span class="w-2 h-2 bg-lime-400 rounded-full mr-2 sm:mr-3 animate-pulse"></span>
                   <span class="text-xs sm:text-sm font-semibold text-lime-200">Empowerment</span>
                 </div>
-                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                   Empowering Communities
                   <span class="text-lime-400 block mt-2 sm:mt-4">Through Digital Finance</span>
                 </h1>
@@ -127,27 +127,13 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
         </svg>
       </button>
-
-      <!-- Progress Bar -->
-      <div class="absolute bottom-6 sm:bottom-8 md:bottom-10 left-1/2 transform -translate-x-1/2 z-30 w-48 sm:w-56 md:w-64">
-        <div class="bg-white/30 rounded-full h-1 sm:h-1.5">
-          <div class="bg-white h-1 sm:h-1.5 rounded-full transition-all duration-300 ease-out" :style="{ width: `${((currentSlide + 1) / totalSlides) * 100}%` }"></div>
-        </div>
-      </div>
-
-      <!-- Slide Dots (hidden on small screens) -->
-      <div class="absolute bottom-16 sm:bottom-20 md:bottom-24 left-1/2 transform -translate-x-1/2 flex items-center gap-2 sm:gap-3 md:gap-4 z-30 hidden md:flex">
-        <div v-for="(slide, index) in totalSlides" :key="index" @click="goToSlide(index)" class="cursor-pointer flex flex-col items-center">
-          <div :class="currentSlide === index ? 'w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full bg-lime-400 scale-125' : 'w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full bg-white/60'"></div>
-          <span :class="currentSlide === index ? 'text-lime-400 text-xs mt-2' : 'text-white/60 text-xs mt-2'">Slide {{ index + 1 }}</span>
-        </div>
-      </div>
+      
 
     </div>
   </section>
 
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
-<div class="relative z-40 -mt-16 sm:-mt-24 md:-mt-40 lg:-mt-48 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
+<div class="relative z-40 -mt-16 sm:-mt-20 md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-600 rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">
