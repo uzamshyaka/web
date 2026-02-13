@@ -112,7 +112,7 @@
         <li>
           <a
             href="/"
-            class="border border-orange-300 bg-orange-400 text-white px-4 py-2 rounded-md transition duration-300"
+          class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition"
             >Home</a
           >
         </li>
@@ -120,7 +120,7 @@
         <li>
           <a
             href="/impact"
-            class="border border-orange-300 bg-orange-400 text-white px-4 py-2 rounded-md transition duration-300"
+          class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition"
             >Impact</a
           >
         </li>
@@ -131,10 +131,10 @@
             >services</a
           >
         </li>
-        <li><a href="/about" class="hover:text-lime-600 transition">About Us</a></li>
-        <li><a href="#" class="hover:text-lime-600 transition">Career</a></li>
-        <li><a href="/news" class="hover:text-lime-600 transition">News</a></li>
-        <li><a href="/contact" class="hover:text-lime-600 transition">Contact</a></li>
+        <li><a href="/about" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">About Us</a></li>
+        <li><a href="#" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">Career</a></li>
+        <li><a href="/news" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">News</a></li>
+        <li><a href="/contact" class="border border-transparent hover:border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-2 rounded-md transition">Contact</a></li>
       </ul>
 
       <!-- MOBILE MENU BUTTON -->
