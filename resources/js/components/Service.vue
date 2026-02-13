@@ -1,16 +1,16 @@
 <template>
   <div class="min-h-screen mt-20 bg-gradient-to-b from-gray-50 to-white">
     <!-- Hero Section -->
-    <section class="relative bg-lime-900 text-white overflow-hidden">
+    <section class="relative bg-lime-900 text-white overflow-hidden min-h-[500px] sm:min-h-[600px]">
       <div class="absolute inset-0 bg-black opacity-50"></div>
       <div class="absolute inset-0 bg-gradient-to-r from-lime-900 to-transparent"></div>
       <img 
         src="/images/demu25.jpeg" 
         alt="Microfinance background" 
-        class="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
+        class="absolute inset-0 w-full h-full object-cover object-center mix-blend-overlay"
       />
       
-      <div class="relative max-w-7xl mx-auto px-4 py-28">
+      <div class="relative max-w-7xl mx-auto px-4 py-28 sm:py-32 md:py-40">
         <h1 class="text-5xl font-bold mb-6 animate-fade-in-up">
           Empowering Communities,<br>Transforming Lives
         </h1>
@@ -24,89 +24,88 @@
     </section>
 
     <!-- Main Services Section with Cards -->
-    <section class="py-20 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+      <div class="mx-auto px-8">
+        
+        <!-- Centered Header Section -->
         <div class="text-center mb-16">
-          <span class="text-yellow-600 font-semibold text-sm uppercase tracking-wider">Our Services</span>
-          <h2 class="text-4xl font-bold text-gray-900 mt-2 mb-4">Financial Solutions Tailored for You</h2>
+          
+          <span class="text-yellow-600 font-semibold text-sm uppercase tracking-wider">
+            Our Services
+          </span>
+
+          <h2 class="text-4xl font-bold text-gray-900 mt-2 mb-4">
+            Financial Solutions Tailored for You
+          </h2>
+
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            From small loans to savings accounts, we offer comprehensive financial services to help your business grow
+            From small loans to financial education, we offer comprehensive services to help your business grow and thrive.
           </p>
         </div>
 
-        <!-- Interactive Service Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div 
-            v-for="(service, index) in services" 
-            :key="service.id"
-            class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 cursor-pointer"
-            @mouseenter="activeService = index"
-            @mouseleave="activeService = null"
-          >
-            <!-- Image Container -->
-            <div class="relative h-56 overflow-hidden">
-              <img 
-                :src="service.image" 
-                :alt="service.title"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              
-              <!-- Service Icon -->
-              <div class="absolute top-4 right-4 w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-2xl shadow-lg">
-                {{ service.icon }}
-              </div>
-            </div>
-
-            <!-- Content -->
-            <div class="p-6">
-              <h3 class="text-2xl font-bold text-gray-900 mb-3">{{ service.title }}</h3>
-              <p class="text-gray-600 mb-4">{{ service.shortDesc }}</p>
-              
-              <!-- Expandable Details -->
-              <transition 
-                enter-active-class="transition-all duration-500 ease-in-out"
-                enter-from-class="max-h-0 opacity-0"
-                enter-to-class="max-h-96 opacity-100"
-                leave-active-class="transition-all duration-300 ease-in-out"
-                leave-from-class="max-h-96 opacity-100"
-                leave-to-class="max-h-0 opacity-0"
-              >
-                <div v-if="activeService === index" class="mt-4 space-y-3">
-                  <p class="text-gray-700 text-sm">{{ service.detailedDesc }}</p>
-                  <div class="border-t pt-3">
-                    <h4 class="font-semibold text-lime-600 mb-2">Key Benefits:</h4>
-                    <ul class="space-y-2">
-                      <li v-for="benefit in service.benefits" :key="benefit" class="flex items-center text-sm text-gray-600">
-                        <svg class="w-4 h-4 text-lime-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                        </svg>
-                        {{ benefit }}
-                      </li>
-                    </ul>
+        <!-- Service Cards Container -->
+        <div class="py-4 sm:py-8">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 xl:gap-6">
+            
+            <!-- Service Card -->
+            <div v-for="(service, index) in services" :key="service.id">
+              <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-5 lg:p-6 h-full border border-gray-200 hover:border-lime-500 transition-all duration-300 group hover:shadow-2xl shadow-lg flex flex-col">
+                
+                <!-- Header with Icon Badge -->
+                <div class="flex items-start justify-between mb-3 lg:mb-4">
+                  <div class="flex-1">
+                    <div class="inline-flex items-center gap-2 mb-2">
+                      <div class="w-2 h-2 sm:w-3 sm:h-3 bg-yellow-500 rounded-full"></div>
+                      <span class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-yellow-600">
+                        {{ service.category || 'Service' }}
+                      </span>
+                    </div>
+                    <h3 class="text-xl sm:text-2xl font-bold text-gray-900 leading-tight">
+                      {{ service.title }}
+                    </h3>
                   </div>
                   
-                  <!-- CTA Button -->
-                  <button class="w-full mt-4 bg-orange-400 text-white px-4 py-2 rounded-lg hover:bg-lime-600 transition-colors">
-                    Apply Now
-                  </button>
+                  <!-- Icon Badge -->
+                  <div class="relative flex-shrink-0 ml-4">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-yellow-500 backdrop-blur-sm flex items-center justify-center text-2xl sm:text-3xl shadow-lg">
+                      {{ service.icon }}
+                    </div>
+                  </div>
                 </div>
-              </transition>
 
-              <!-- Toggle Indicator -->
-              <div class="mt-4 flex items-center text-lime-600 font-semibold">
-                <span>{{ activeService === index ? 'Show Less' : 'Learn More' }}</span>
-                <svg 
-                  class="w-5 h-5 ml-2 transition-transform duration-300" 
-                  :class="{ 'rotate-180': activeService === index }"
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                </svg>
+                <!-- Image - Fixed Height -->
+                <div class="relative overflow-hidden rounded-xl sm:rounded-2xl mb-3 lg:mb-4">
+                  <img :src="service.image"
+                    :alt="service.title"
+                    class="w-full h-64 sm:h-72 lg:h-80 object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  />
+                </div>
+
+                <!-- Content - Fixed Height with scroll if needed -->
+                <p class="text-sm sm:text-base leading-relaxed text-gray-600 mb-4">
+                  {{ service.detailedDesc }}
+                </p>
+
+                <!-- Benefits List - Uniform -->
+                <div class="mb-4 flex-grow">
+                  <h4 class="text-sm font-semibold text-gray-900 mb-2">Key Benefits:</h4>
+                  <ul class="space-y-1.5">
+                    <li v-for="benefit in service.benefits" :key="benefit" class="flex items-start text-xs sm:text-sm text-gray-600">
+                      <svg class="w-4 h-4 text-lime-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                      <span class="line-clamp-2">{{ benefit }}</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- CTA Button - Always at bottom -->
+                <button class="w-full bg-lime-600 hover:bg-orange-400 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base mt-auto">
+                  Learn More
+                </button>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -178,7 +177,6 @@ export default {
   name: 'MicrofinanceServices',
   data() {
     return {
-      activeService: null,
       loanAmount: 50000,
       repaymentPeriod: 28,
       
@@ -193,6 +191,7 @@ export default {
         {
           id: 1,
           icon: '💼',
+          category: 'Financial Support',
           title: 'Business Loans',
           image: '/images/demu18.jpeg',
           shortDesc: 'Startup capital and expansion funding for small businesses',
@@ -206,35 +205,34 @@ export default {
         },
         {
           id: 2,
-          icon: '👩‍🌾',
-          title: 'financial  literacy skills',
+          icon: '📚',
+          category: 'Empowerment',
+          title: 'financial literacy skills',
           image: '/images/demu20.jpeg',
           shortDesc: 'Building smart money management skills for entrepreneurs',
           detailedDesc: 'Equipping individuals with practical financial knowledge to manage income, savings, investments, and business finances confidently and sustainably.',
           benefits: [
             'Improved budgeting and money management',
-    'Better understanding of savings and investments',
-    'Debt management strategies',
-    'Increased financial confidence and independence'
+            'Better understanding of savings and investments',
+            'Debt management strategies',
+            'Increased financial confidence and independence'
           ]
         },
         {
-        
-  id: 3,
-  icon: '🤝',
-  title: 'Strategic Community Partnerships',
-  image: '/images/demu38.jpg',
-  shortDesc: 'Collaborating with communities to drive sustainable impact',
-  detailedDesc: 'Building strong partnerships with local organizations, leaders, and stakeholders to promote inclusive growth, shared resources, and long-term community development.',
-  benefits: [
-    'Stronger community engagement',
-    'Shared knowledge and resources',
-    'Sustainable development initiatives',
-    'Expanded outreach and impact'
-        ]
-          
+          id: 3,
+          icon: '🤝',
+          category: 'Community Impact',
+          title: 'Strategic Community Partnerships',
+          image: '/images/demu38.jpg',
+          shortDesc: 'Collaborating with communities to drive sustainable impact',
+          detailedDesc: 'Building strong partnerships with local organizations, leaders, and stakeholders to promote inclusive growth, shared resources, and long-term community development.',
+          benefits: [
+            'Stronger community engagement',
+            'Shared knowledge and resources',
+            'Sustainable development initiatives',
+            'Expanded outreach and impact'
+          ]
         },
-      
       ],
       
       successStories: [
