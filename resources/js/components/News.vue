@@ -1,8 +1,8 @@
 <template>
-  <section class=" mt-20 grid md:grid-cols-2 gap-8 py-10">
+  <section class="mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-6 py-10">
     <!-- CARD 1 -->
     <div
-      class="bg-white p-10 w-150 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
+      class="bg-white p-6 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
     >
       <!-- Media (Image or Video) -->
       <div class="w-full h-56 overflow-hidden">
@@ -39,7 +39,7 @@
 
     <!-- CARD 2 -->
     <div
-      class="bg-white p-6 w-150 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
+      class="bg-white p-6 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
     >
       <!-- Media (Image or Video) -->
       <div class="w-full h-56 overflow-hidden">

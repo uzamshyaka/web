@@ -1,71 +1,71 @@
 <template>
-  <section class="min-h-screen w-full bg-lime-700 font-roboto flex items-center justify-center px-6 py-16">
-    <div class="max-w-7xl w-full mt-20 p-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+  <section class="min-h-screen w-full bg-lime-700 font-roboto flex items-center justify-center px-4 sm:px-6 py-12 sm:py-16">
+    <div class="max-w-7xl w-full mt-16 sm:mt-20 p-4 sm:p-6 flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-10">
 
       <!-- LEFT SECTION -->
-      <div class="text-orange-400 space-y-6">
-        <h1 class="text-4xl font-semibold">Contact Us</h1>
+      <div class="text-orange-400 space-y-4 sm:space-y-6">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold">Contact Us</h1>
 
-        <p class="text-white max-w-sm leading-relaxed">
+        <p class="text-white text-base sm:text-lg max-w-lg leading-relaxed">
           Not sure what you need? The team at Demulla Microfinance is always ready to listen, understand your financial goals, and guide you with options you may not have considered
         </p>
 
-        <div class="space-y-4 pt-6">
+        <div class="space-y-3 sm:space-y-4 pt-4 sm:pt-6">
           <!-- Email -->
           <div class="flex items-center space-x-3">
-            <i class="fa fa-envelope text-2xl"></i>
-            <p class="text-white"> customer@demulla.co.ke</p>
+            <i class="fa fa-envelope text-xl sm:text-2xl flex-shrink-0"></i>
+            <p class="text-white text-sm sm:text-base break-all"> customer@demulla.co.ke</p>
           </div>
 
           <!-- Phone -->
           <div class="flex items-center space-x-3">
-            <i class="fa fa-phone text-2xl"></i>
-            <p class="text-white">Support: 0709005000</p>
+            <i class="fa fa-phone text-xl sm:text-2xl flex-shrink-0"></i>
+            <p class="text-white text-sm sm:text-base">Support: 0709005000</p>
           </div>
         </div>
       </div>
 
       <!-- RIGHT SECTION (FORM CARD) -->
-      <div class="bg-white rounded-xl shadow-xl p-8 relative">
+      <div class="bg-white rounded-xl shadow-xl p-6 sm:p-8 md:p-10 relative w-full">
         <!-- Decorative rings -->
-        <div class="absolute -top-6 -right-6 opacity-30">
+        <div class="absolute -top-6 -right-6 opacity-30 hidden sm:block">
           <svg width="120" height="120">
             <circle cx="60" cy="60" r="40" stroke="#cfcfcf" stroke-width="3" fill="none"/>
             <circle cx="60" cy="60" r="55" stroke="#cfcfcf" stroke-width="3" fill="none"/>
           </svg>
         </div>
 
-        <h2 class="text-2xl font-bold mb-2">We’d love to hear from you!</h2>
-        <p class="text-gray-600 mb-6">Let’s get in touch</p>
+        <h2 class="text-xl sm:text-2xl font-bold mb-2">We'd love to hear from you!</h2>
+        <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base">Let's get in touch</p>
 
-        <form class="space-y-5">
+        <form class="space-y-4 sm:space-y-5">
 
           <!-- Name Row -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <input 
               type="text" 
               placeholder="Full Name"
-              class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-purple-400 outline-none"
+              class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-purple-400 outline-none"
             />
 
             <input 
               type="text" 
               placeholder="Location"
-              class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
+              class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
             />
           </div>
 
           <!-- Email + Phone -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <input 
               type="email" 
               placeholder="Email"
-              class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
+              class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
             />
 
-            <div class="flex space-x-3">
+            <div class="flex space-x-2 sm:space-x-3">
               <select 
-                class="border rounded-lg p-3 focus:ring-2 focus:ring-orange-400 outline-none"
+                class="border rounded-lg p-3 sm:p-4 text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
               >
                 <option>RW</option>
                 <option>KE</option>
@@ -73,8 +73,8 @@
               </select>
               <input 
                 type="text" 
-                placeholder="phone number"
-                class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
+                placeholder="Phone number"
+                class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
               />
             </div>
           </div>
@@ -83,20 +83,20 @@
           <input 
             type="text" 
             placeholder="Address"
-            class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
+            class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
           />
 
           <!-- Message -->
           <textarea 
             rows="5"
             placeholder="Your message here"
-            class="border rounded-lg p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
+            class="border rounded-lg p-3 sm:p-4 w-full text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
           ></textarea>
 
           <!-- Submit Button -->
           <button 
             type="submit"
-            class="bg-orange-400 hover:bg-orange-400 text-white px-6 py-3 rounded-lg shadow-md transition"
+            class="w-full sm:w-auto bg-orange-400 hover:bg-orange-400 text-white px-6 py-3 rounded-lg shadow-md transition text-sm sm:text-base"
           >
             Send Message
           </button>
@@ -150,7 +150,7 @@
           <span class="font-semibold text-lime-900">Email:</span> {{ activeBranch.email }}
         </p>
 
-        <p class="text-gray-800">
+        <p class="text-gray-800 text-sm sm:text-base">
           <span class="font-semibold text-lime-900">Office Location:</span> {{ activeBranch.location }}
         </p>
       </div>
@@ -158,27 +158,12 @@
       <!-- If No Branch Selected -->
       <div 
         v-else
-        class="flex items-center justify-center text-gray-500 italic bg-gray-50 rounded-xl"
+        class="flex items-center justify-center text-gray-500 italic bg-gray-50 rounded-xl p-6 text-sm sm:text-base"
       >
         Select a branch to see contact details.
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </section>
 </template>
 

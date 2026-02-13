@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vue + Laravel Top Bar</title>
+    <title>Demulla</title>
+    <link rel="icon" type="image/png" href="/images/demu58.png">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <script>window.page = "about";</script>
-    <div id="app" headerTheme="default"></div>
+    <div id="app" data-theme="default"></div>
 </body>
 </html>
