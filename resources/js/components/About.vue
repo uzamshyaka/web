@@ -41,7 +41,7 @@
   </div>
 </section>
 
-   <section class="relative -mt-15 z-20 px-4 md:px-10 lg:px-28">
+   <section class="relative -mt-48 z-20 px-4 md:px-10 lg:px-28">
   <div class="max-w-6xl mx-auto">
 
     <!-- Single Card -->
