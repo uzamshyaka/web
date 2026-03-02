@@ -133,7 +133,7 @@
   </section>
 
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
-<div class="relative z-40 -mt-16 sm:-mt-20 md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
+<div class="relative z-40 -mt-16 sm:-mt-3 md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-600 rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">

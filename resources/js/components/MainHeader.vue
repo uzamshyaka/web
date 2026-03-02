@@ -89,7 +89,7 @@
 
     <!-- NAVIGATION - Minimal height on mobile -->
     <nav
-      :class="[navBarClasses, 'justify-between px-4 md:px-8 py-3 md:py-4 flex items-center shadow-lg transition-all duration-500 backdrop-blur-md border-b border-white/20']"
+      :class="[navBarClasses, 'justify-between px-4 md:px-8 py-3 md:py-4 flex items-center shadow-lg transition-all duration-500 backdrop-blur-md ']"
     >
       <!-- LOGO -->
       <div class="flex items-center space-x-1 sm:space-x-2 max-w-[60%] md:max-w-none">
@@ -257,7 +257,7 @@ const topBarClasses = computed(() => {
 });
 
 const navBarClasses = computed(() => {
-  return "bg-gradient-to-r from-lime-700 to-lime-800 text-white shadow-lg";
+  return "bg-white/200 backdrop-blur-md text-white font-Roboto shadow-sm";
 });
 </script>
 

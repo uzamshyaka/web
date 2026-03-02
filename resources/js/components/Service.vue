@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen mt-20 bg-gradient-to-b from-gray-50 to-white">
+  <div class="min-h-screen -mt-5 bg-gradient-to-b from-gray-50 to-white">
     <!-- Hero Section -->
     <section class="relative bg-lime-900 text-white overflow-hidden">
       <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -11,10 +11,10 @@
       />
       
       <div class="relative max-w-7xl mx-auto px-4 py-28">
-        <h1 class="text-5xl font-bold mb-6 animate-fade-in-up">
+        <h1 class="text-5xl font-bold mt-30 mb-6 animate-fade-in-up">
           Empowering Communities,<br>Transforming Lives
         </h1>
-        <p class="text-xl mb-8 max-w-2xl text-blue-100">
+        <p class="text-xl mb-6 max-w-2xl text-blue-100">
           Providing accessible financial services to help small businesses and individuals thrive
         </p>
         <button class="bg-orange-400 text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-orange-400 transition-all transform hover:scale-105 shadow-lg">
