@@ -11,10 +11,10 @@
       />
       
       <div class="relative max-w-7xl mx-auto px-4 py-28">
-        <h1 class="text-5xl font-bold mb-6 animate-fade-in-up">
+        <h1 class="text-5xl font-bold mb-10 mt-20 animate-fade-in-up">
           Empowering Communities,<br>Transforming Lives
         </h1>
-        <p class="text-xl mb-6 max-w-2xl text-blue-100">
+        <p class="text-xl mb-10 max-w-2xl text-blue-100">
           Providing accessible financial services to help small businesses and individuals thrive
         </p>
         <button class="bg-orange-400 text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-orange-400 transition-all transform hover:scale-105 shadow-lg">

@@ -1,98 +1,64 @@
 <template>
-  <section class="mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-6 py-10">
-    <!-- CARD 1 -->
+  <Section class="relative bg-lime-600 py-15">
+    <div class="max-w-7xl mx-auto px-6">
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-30">
     <div
-      class="bg-white p-6 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
+      v-for="item in news"
+      :key="item.id"
+      class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300"
     >
-      <!-- Media (Image or Video) -->
-      <div class="w-full h-56 overflow-hidden">
+      <!-- Image -->
+      <div class="h-56 overflow-hidden">
         <img
-          v-if="card1.type === 'image'"
-          :src="card1.src"
-          class="w-full h-full object-cover"
+          :src="item.image"
+          :alt="item.title"
+          class="w-full h-full object-cover hover:scale-105 transition duration-500"
         />
-
-        <video
-          v-else-if="card1.type === 'video'"
-          :src="card1.src"
-          controls
-          class="w-full h-full object-cover"
-        ></video>
       </div>
 
       <!-- Content -->
-      <div class="p-6">
-        <h3 class="text-lime-700 font-bold text-xl mb-3">
-          {{ card1.title }}
+      <div class="p-6 flex flex-col justify-between h-44">
+        <h3 class="text-lime-600 font-semibold text-lg leading-snug">
+          {{ item.title }}
         </h3>
 
-        <p class="text-gray-500 text-sm mb-4">{{ card1.date }}</p>
-
-        <!-- Social Icons -->
-        <div class="flex space-x-4">
-          <i class="fab fa-facebook text-gray-500 hover:text-lime-700"></i>
-          <i class="fab fa-twitter text-gray-500 hover:text-lime-700"></i>
-          <i class="fab fa-linkedin text-gray-500 hover:text-lime-700"></i>
+        <div class="mt-6 text-sm text-gray-500 flex gap-2">
+          <span class="uppercase">{{ item.category }}</span>
+          <span>|</span>
+          <span>{{ item.date }}</span>
         </div>
       </div>
     </div>
-
-    <!-- CARD 2 -->
-    <div
-      class="bg-white p-6 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
-    >
-      <!-- Media (Image or Video) -->
-      <div class="w-full h-56 overflow-hidden">
-        <img
-          v-if="card2.type === 'image'"
-          :src="card2.src"
-          class="w-full h-full object-cover"
-        />
-
-        <video
-          v-else-if="card2.type === 'video'"
-          :src="card2.src"
-          controls
-          class="w-full h-full object-cover"
-        ></video>
-      </div>
-
-      <!-- Content -->
-      <div class="p-6">
-        <h3 class="text-lime-700 font-bold text-xl mb-3">
-          {{ card2.title }}
-        </h3>
-
-        <p class="text-gray-500 text-sm mb-4">{{ card2.date }}</p>
-
-        <!-- Social Icons -->
-        <div class="flex space-x-4">
-          <i class="fab fa-facebook text-gray-500 hover:text-lime-700"></i>
-          <i class="fab fa-twitter text-gray-500 hover:text-lime-700"></i>
-          <i class="fab fa-linkedin text-gray-500 hover:text-lime-700"></i>
-        </div>
-      </div>
-    </div>
+  </div>
+  </div>
   </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      card1: {
-        type: "image", // 'image' or 'video'
-        src: "../../images/demu1.jpg",
-        title: "Mastering the Art of Financial Boundaries",
-        date: "27 NOV 2025",
-      },
-      card2: {
-        type: "video",
-        src: "/videos/sample.mp4",
-        title: "Consistency Over Perfection: Your Shortcut to Financial Peace",
-        date: "27 NOV 2025",
-      },
-    };
+
+<script setup>
+
+
+const news = [
+  {
+    id: 1,
+    title: "Africa Tech Summit – Driving Financial Inclusion Through Innovation",
+    image: "/images/demu71.jpg",
+    category: "TRENDING",
+    date: "11 FEB 2026"
   },
-};
+  {
+    id: 2,
+    title: "Expansion: January 12, 2026",
+    image: "/images/demu72.jpg",
+    category: "BUSINESS",
+    date: "15 JAN 2026"
+  },
+  {
+    id: 3,
+    title: "End-of-Year Recognition: December, 2025",
+    image: "/images/demu73.jpg",
+    category: "RECOGNITION",
+    date: "17 NOV 2025"
+  }
+]
 </script>

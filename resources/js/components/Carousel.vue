@@ -3,7 +3,9 @@
   <!-- Carousel Section -->
   <section id="carousel" class="relative font-roboto overflow-hidden">
     <!-- Main Carousel Container -->
-    <div class="slider-container relative w-full">
+    <div class="slider-container relative w-full h-screen min-h-[600px] max-h-[900px] 
+            md:h-[55vh] md:min-h-[400px] md:max-h-[500px] 
+            sm:h-[50vh] sm:min-h-[350px] sm:max-h-[450px]">
       <!-- Slider -->
       <div 
         class="slider flex transition-transform duration-500 ease-out h-full"

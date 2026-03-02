@@ -465,25 +465,26 @@
     <div class="grid grid-cols-1 md:grid-cols-2 min-h-[300px] sm:min-h-[420px]">
 
       <!-- IMAGE -->
-      <div class="relative h-[250px] sm:h-[500px] md:h-full overflow-hidden">
+      <div class="relative overflow-hidden">
         <img
           :src="impact.image"
           class="absolute inset-0 w-full h-full object-cover"
         />
 
         <!-- Gradient overlay -->
-        <div class="absolute inset-0 bg-gradient-to-br from-black/40 to-black/10"></div>
+        <div class="absolute inset-0  bg-gradient-to-br from-black/40 to-black/10"></div>
 
         <!-- Kenya Map Overlay (Scale block only) -->
         <img
-          v-if="impact.id === 2"
-          :src=demu11
-          alt="Kenya Map"
-          class="absolute right-10 bottom-10
-                 w-40 md:w-52
-                 opacity-10
-                 pointer-events-none"
-        />
+  v-if="impact.id === 2"
+  :src="demu11"
+  alt="Kenya Map"
+  class="absolute inset-0
+         w-full h-full
+         object-contain
+         opacity-10
+         pointer-events-none"
+/>
       </div>
 
       <!-- GLASS TEXT -->

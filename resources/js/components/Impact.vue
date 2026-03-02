@@ -400,14 +400,122 @@
           alt="community transformation"
           class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
 >
+
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 flex flex-col justify-end">
+            <span class="text-sm font-semibold text-lime-300 mb-2">FINANCIAL LITERACY</span>
+            <h4 class="text-xl font-bold text-white">Empowering Through Education</h4>
+          </div>
       </div>
 
-    </div>
+       
+        
 
+        <div class="relative overflow-hidden rounded-2xl group h-64">
+          <img 
+            src="/images/demu12.jpeg" 
+            alt="Business Growth"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 flex flex-col justify-end">
+            <span class="text-sm font-semibold text-orange-300 mb-2">BUSINESS EXPANSION</span>
+            <h4 class="text-xl font-bold text-white">From Small to Scale</h4>
+          </div>
+        </div>
 
+        <div class="relative overflow-hidden rounded-2xl group h-64">
+          <img 
+            src="/images/demu33.jpg" 
+            alt="Women Empowerment"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 flex flex-col justify-end">
+            <span class="text-sm font-semibold text-blue-300 mb-2">WOMEN-LED MSMEs</span>
+            <h4 class="text-xl font-bold text-white">47% of Our Portfolio</h4>
+          </div>
+        </div>
 
+        <div class="relative overflow-hidden rounded-2xl group h-64 lg:col-span-2">
+          <img 
+            src="/images/demu22.jpeg" 
+            alt="Small business Impact"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 flex flex-col justify-end">
+            <span class="text-sm font-semibold text-green-300 mb-2">AGRICULTURAL TRANSFORMATION</span>
+            <h4 class="text-xl font-bold text-white">Feeding Growth, Building Futures</h4>
+          </div>
+        </div>
 
+        <div class="relative overflow-hidden rounded-2xl group h-64">
+          <img 
+            src="/images/demu15.jpeg" 
+            alt="Youth Engagement"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 flex flex-col justify-end">
+            <span class="text-sm font-semibold text-purple-300 mb-2">YOUTH ENTREPRENEURS</span>
+            <h4 class="text-xl font-bold text-white">32% Youth Participation</h4>
+          </div>
+        </div>
+      </div>
   </div>
+
+      
+<div class="relative py-24 mt-20 mb-0 overflow-hidden">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img 
+        src="/images/demu23.jpg" 
+        alt="Join Our Impact"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-orange-900/90 to-orange-800/80"></div>
+    </div>
+    
+    <!-- Content -->
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+        Ready to Create Your<br>
+        <span class="text-lime-400">Impact Story?</span>
+      </h2>
+      <p class="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+        Join thousands of successful MSMEs who are transforming their businesses and communities with Demulla.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <button class="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 shadow-xl">
+          Start Your Application
+        </button>
+        <button class="bg-white/20 hover:bg-white/30 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-sm transition-all duration-300 hover:scale-105 border border-white/30">
+          Speak with Our Team
+        </button>
+      </div>
+      
+      <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="text-center">
+          <div class="text-3xl font-bold text-lime-300 mb-2">98.2%</div>
+          <div class="text-sm text-gray-300">Client Satisfaction</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-lime-300 mb-2">4.2s</div>
+          <div class="text-sm text-gray-300">Avg. Response Time</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-lime-300 mb-2">92%</div>
+          <div class="text-sm text-gray-300">Retention Rate</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-lime-300 mb-2">24/7</div>
+          <div class="text-sm text-gray-300">Support Available</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
 </section>
 
