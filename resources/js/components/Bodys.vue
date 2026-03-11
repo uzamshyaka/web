@@ -134,7 +134,7 @@
     <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
       
       <!-- Centered Header Section -->
-      <div class="text-center mt-10 sm:mt-12 md:mt-20 mb-6 md:mb-12 relative">
+      <div class="text-center mt-10 sm:mt-30 md:mt-30 mb-6 md:mb-12 relative">
         <div class="absolute top-50 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-32 sm:h-32 bg-orange-400/10 rounded-full blur-3xl"></div>
         
         <span class="inline-block text-xs sm:text-sm uppercase tracking-widest text-orange-400 font-semibold bg-lime-700/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 relative z-10">
@@ -161,7 +161,7 @@
   
   
   <!-- Horizontal Container -->
-  <div class="py-4 sm:py-8">
+  <div class="py-4 sm:py-6 lg:py-8 relative z-10">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 xl:gap-6">
       
       <!-- Section 1 - Governance -->
