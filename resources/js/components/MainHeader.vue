@@ -93,7 +93,7 @@
     >
       <!-- LOGO -->
       <div class="flex items-center space-x-1 sm:space-x-2 max-w-[60%] md:max-w-none">
-        <img src="/images/demu70.png" alt="Demulla Logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 flex-shrink-0" />
+        <img src="/images/demu74.jpeg" alt="Demulla Logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 flex-shrink-0" />
         <h1
           class="text-white text-sm sm:text-base md:text-xl lg:text-2xl font-bold leading-tight"
         >

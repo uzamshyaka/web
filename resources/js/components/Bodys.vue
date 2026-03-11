@@ -777,7 +777,7 @@ const impacts = [
   {
     id: 2,
     title: "Scale & National Impact",
-    image: "/images/demu16.jpeg",
+    image: "/images/demu10.jpg",
     description:
       "From our beginnings in Malaba, Demulla has grown into a national institution with a strong community footprint. Today, we operate across Kenya with teams embedded in local markets, enabling close relationships, disciplined lending, and sustainable impact at scale.",
     stats: [
