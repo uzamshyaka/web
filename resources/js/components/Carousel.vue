@@ -5,7 +5,7 @@
     <!-- Main Carousel Container -->
     <div class="slider-container relative w-full 
             h-[300px] 
-            sm:h-[450px] 
+            sm:h-[500px] 
             md:h-[600px] 
             lg:h-[600px]">
       <!-- Slider -->
@@ -137,7 +137,12 @@
   </section>
 
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
-<div class="relative z-40 -mt-16  md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
+<div class="relative z-40 
+  -mt-10 
+  sm:-mt-12 
+  md:-mt-16 
+  lg:-mt-20 
+  px-4 md:px-6 lg:px-8 pb-8 sm:pb-10">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-600 rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">
