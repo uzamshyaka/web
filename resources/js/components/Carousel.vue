@@ -1,11 +1,13 @@
 <template>
   <div>
   <!-- Carousel Section -->
-  <section id="carousel" class="relative font-roboto overflow-hidden">
+  <section id="carousel" class="relative font-roboto overflow-hidden mt-0 sm:mt-0">
     <!-- Main Carousel Container -->
-    <div class="slider-container relative w-full h-screen min-h-[300px] max-h-[600px] 
-            md:h-[45vh] md:min-h-[250px] md:max-h-[400px] 
-            sm:h-[40vh] sm:min-h-[200px] sm:max-h-[350px]">
+    <div class="slider-container relative w-full 
+            h-[220px] 
+            sm:h-[400px] 
+            md:h-[500px] 
+            lg:h-[600px]">
       <!-- Slider -->
       <div 
         class="slider flex transition-transform duration-500 ease-out h-full"
@@ -18,7 +20,7 @@
           <img src="/images/demu.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
           
           <!-- Text slightly higher -->
-          <div class="relative z-20 h-full flex items-center md:items-start justify-center px-4 md:pt-32 lg:pt-40">
+          <div class="relative z-20 h-full flex items-center sm:items-start sm:text-lg sm:pt-32 md:items-start justify-center px-4 md:pt-32 lg:pt-40">
             <div class="max-w-7xl mx-auto w-full">
               <div class="max-w-2xl text-center md:text-left mx-auto md:mx-0">
                 <div class="inline-flex items-center px-4 sm:px-6 py-2 rounded-full bg-orange-500/30 border border-orange-400/40 mb-4 sm:mb-6 md:mb-8">
@@ -135,7 +137,7 @@
   </section>
 
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
-<div class="relative z-40 -mt-16 sm:-mt-3 md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
+<div class="relative z-40 -mt-16  md:-mt-40 lg:-mt-20 px-4 md:px-6 lg:px-8 pb-8 sm:pb-12">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-600 rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 lg:p-16 transition-all duration-500">
       <div class="grid md:grid-cols-2 gap-12 items-start">
@@ -248,13 +250,5 @@ export default {
 </script>
 
 <style scoped>
-.slider-container { height: 100vh; min-height: 600px; max-height: 900px; }
 
-@media (max-width: 768px) {
-  .slider-container { height: 55vh; min-height: 350px; max-height: 500px; }
-}
-
-@media (max-width: 640px) {
-  .slider-container { height: 50vh; min-height: 300px; max-height: 450px; }
-}
 </style>
