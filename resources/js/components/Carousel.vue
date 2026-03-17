@@ -4,9 +4,9 @@
   <section id="carousel" class="relative font-roboto overflow-hidden mt-0 sm:mt-0">
     <!-- Main Carousel Container -->
     <div class="slider-container relative w-full 
-            h-[220px] 
-            sm:h-[400px] 
-            md:h-[500px] 
+            h-[300px] 
+            sm:h-[450px] 
+            md:h-[600px] 
             lg:h-[600px]">
       <!-- Slider -->
       <div 
