@@ -17,7 +17,7 @@
         <!-- Slide 1 -->
         <div class="w-full h-full flex-shrink-0 relative">
           <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/70 to-orange-900/70 z-10"></div>
-          <img src="/images/demu.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
+          <img src="/images/demu10.jpg" alt="Slide 1" class="absolute inset-0 w-full h-full object-cover object-center"/>
           
           <!-- Text slightly higher -->
           <div class="relative z-20 h-full flex items-center sm:items-start sm:text-lg sm:pt-32 md:items-start justify-center px-4 md:pt-32 lg:pt-40">
@@ -139,7 +139,7 @@
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
 <div class="relative z-40 
   -mt-10 
-  sm:-mt-12 
+  sm:-mt-14 
   md:-mt-16 
   lg:-mt-20 
   px-4 md:px-6 lg:px-8 pb-8 sm:pb-10">
