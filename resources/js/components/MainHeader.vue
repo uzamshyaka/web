@@ -167,10 +167,10 @@
     <!-- MOBILE MENU -->
     <div
       v-show="menuOpen"
-      class="fixed top-[100px] left-0 right-0 w-full bg-gradient-to-b from-lime-600 to-lime-700 text-white shadow-2xl z-[100] max-h-[80vh] overflow-y-auto lg:hidden"
+      class="fixed top-[50px] left-0 right-0 w-full bg-gradient-to-b from-lime-600 to-lime-700 text-white shadow-2xl z-[100] max-h-[80vh] overflow-y-auto lg:hidden"
       :style="{ display: menuOpen ? 'block' : 'none' }"
     >
-      <nav class="px-4 py-4 space-y-1">
+      <nav class="px-4 py-2 space-y-1">
         <a href="/" @click="closeMenu" :class="isActive('home') ? 'bg-orange-400' : 'hover:bg-lime-800'" class="block px-4 py-3 rounded-lg transition-colors font-medium">Home</a>
         <a href="/impact" @click="closeMenu" :class="isActive('impact') ? 'bg-orange-400' : 'hover:bg-lime-800'" class="block px-4 py-3 rounded-lg transition-colors font-medium">Impact</a>
         <a href="/service" @click="closeMenu" :class="isActive('service') ? 'bg-orange-400' : 'hover:bg-lime-800'" class="block px-4 py-3 rounded-lg transition-colors font-medium">Services</a>
