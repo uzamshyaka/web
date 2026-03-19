@@ -1,18 +1,19 @@
 <template>
   <div
-  class="w-14 h-14 bg-orange-400 rounded-full flex items-center justify-center fixed bottom-10 right-5 shadow-lg hover:scale-110 transition-transform"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    class="w-7 h-7 text-white"
-    fill="currentColor"
-    viewBox="0 0 24 24"
+    class="w-14 h-14 bg-orange-400 rounded-full flex items-center justify-center fixed bottom-10 right-5 shadow-lg hover:scale-110 transition-transform cursor-pointer"
+    @click="openChat"
   >
-    <path
-      d="M20.52 3.48A11.91 11.91 0 0012.03 0C5.4 0 .02 5.38.02 12c0 2.11.55 4.16 1.6 5.97L0 24l6.2-1.63A11.95 11.95 0 0012.03 24c6.63 0 12.01-5.38 12.01-12 0-3.2-1.25-6.2-3.52-8.52z"
-    />
-  </svg>
-</div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-7 h-7 text-white"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20.52 3.48A11.91 11.91 0 0012.03 0C5.4 0 .02 5.38.02 12c0 2.11.55 4.16 1.6 5.97L0 24l6.2-1.63A11.95 11.95 0 0012.03 24c6.63 0 12.01-5.38 12.01-12 0-3.2-1.25-6.2-3.52-8.52z"
+      />
+    </svg>
+  </div>
 </template>
 
 <script setup>
