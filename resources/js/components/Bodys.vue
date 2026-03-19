@@ -17,6 +17,8 @@
       Built for MSME Growth.
     </h1>
 
+    
+
     <p class="mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg leading-relaxed mx-auto text-gray-500 px-4 sm:px-0">
       Demulla integrates fintech infrastructure with relationship-driven customer
       engagement to deliver inclusive, responsible financial solutions for MSMEs.
@@ -714,6 +716,8 @@
 
     </div>
   </div>
+
+
 </section>
   
   
@@ -749,7 +753,6 @@
 import { ref, onMounted, watch, nextTick } from 'vue';
 import { onUnmounted } from 'vue';
 import DonutChart from './Donut.vue'
-import Portfolio from './Portfolio.vue';
 import {
   BuildingOfficeIcon,
   ChartBarIcon,
@@ -759,6 +762,7 @@ import {
   AcademicCapIcon,
   IdentificationIcon,
 } from '@heroicons/vue/24/outline'
+import Portfolio from './Portfolio.vue';
 
 const impacts = [
   {

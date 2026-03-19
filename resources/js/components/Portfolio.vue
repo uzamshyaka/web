@@ -1,76 +1,59 @@
 <template>
-    <div class="w-[600px] h-[200px] flex items-center justify-center ">
-<canvas ref="chartCanvas"></canvas>
+  <div
+  class="w-14 h-14 bg-orange-400 rounded-full flex items-center justify-center fixed bottom-10 right-5 shadow-lg hover:scale-110 transition-transform"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-7 h-7 text-white"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M20.52 3.48A11.91 11.91 0 0012.03 0C5.4 0 .02 5.38.02 12c0 2.11.55 4.16 1.6 5.97L0 24l6.2-1.63A11.95 11.95 0 0012.03 24c6.63 0 12.01-5.38 12.01-12 0-3.2-1.25-6.2-3.52-8.52z"
+    />
+  </svg>
 </div>
 </template>
+
 <script setup>
-    import { onMounted, ref} from 'vue';
-    import { Chart,
-              LineController,
-              LineElement,
-              PointElement,
-              LinearScale,
-              CategoryScale,
-              Filler,
-              Tooltip,
-          
-     } from 'chart.js';
+const openChat = () => {
+  // 1. Load script if not already loaded
+  if (!document.getElementById('yeastar-chat')) {
+    const script = document.createElement('script');
+    script.id = 'yeastar-chat';
+    script.src =
+      "https://demulla.ras.yeastar.com/live_chat.v1.0.0.js?channelNumber=LC00000";
+    script.async = true;
 
-      Chart.register(
-        LineController,
-        LineElement,
-        PointElement,
-        LinearScale,
-        CategoryScale,
-        Filler,
-        Tooltip,
-      )
-      const chartCanvas = ref(null);
-        onMounted(() => {
-            const ctx = chartCanvas.value.getContext('2d');
-            const gradient= ctx.createLinearGradient(0,0,0,400);
-            gradient.addColorStop(0,'rgba(251,140,0,0.5)');
-            gradient.addColorStop(1,'rgba(251,140,0,0)');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: ['2017', '2018', '2019', '2020', '2021', '2022', '2023'],
-                    datasets: [
-                        { 
-                            data: [120, 190,200,300,400,500,600],
-                            borderColor: '#FB8C00',
-                            fill: true,
-                            tension: 0.4,
-                            backgroundColor: gradient,
-                            pointRadius: 2,
-                            pointBackgroundColor: '#FB8C00',
-                            borderWidth: 2,
-                            pointHoverBackgroundColor: "#FB8C00"
+    script.onload = () => {
+      showChat();
+    };
 
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    animations:{
-                        tension: {
-                            duration: 1000,
-                            easing: 'linear',
-                            from: 0.4,
-                            to: 0.4,
-                            loop: true
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false  
-                        },
+    document.body.appendChild(script);
+  } else {
+    // 2. If already loaded → just show it
+    showChat();
+  }
+};
 
-                    }
+// function to show chat
+const showChat = () => {
+  const interval = setInterval(() => {
+    const chat = document.getElementById('ys-chatbot-container');
 
+    if (chat) {
+      chat.style.display = 'block';
 
-                }
-            })
-        })
+    
+      chat.style.position = 'fixed';
+      chat.style.bottom = '20px';
+      chat.style.right = '20px';
+
+      // keep it above everything
+      chat.style.zIndex = '999999';
+
+      clearInterval(interval);
+    }
+  }, 300);
+};
 </script>

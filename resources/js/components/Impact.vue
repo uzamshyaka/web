@@ -1,6 +1,6 @@
 <template>
   <!-- HERO SECTION -->
-  <section class="relative h-[420px] sm:h-[500px] md:h-[600px] lg:h-[700px] w-full overflow-hidden">
+  <section class="relative h-[384px] sm:h-[500px] md:h-[600px] lg:h-[700px] w-full overflow-hidden">
 
     <img
       src="/images/demu8.jpg"

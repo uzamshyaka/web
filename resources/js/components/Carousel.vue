@@ -138,10 +138,10 @@
 
 <!-- Floating "Who We Are" Section - OUTSIDE the carousel section -->
 <div class="relative z-40 
-  -mt-10 
-  sm:-mt-14 
-  md:-mt-16 
-  lg:-mt-20 
+  -mt-14
+  sm:-mt-16 
+  md:-mt-20 
+  lg:-mt-24
   px-4 md:px-6 lg:px-8 pb-8 sm:pb-10">
   <div class="max-w-7xl mx-auto">
     <div class="bg-lime-600 rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 lg:p-16 transition-all duration-500">
@@ -169,7 +169,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
               </svg>
             </a>
-            <a href="#" class="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold px-8 py-3.5 rounded-full transition-all duration-300">
+            <a href="https://www.youtube.com/@Demulla" class="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold px-8 py-3.5 rounded-full transition-all duration-300">
               Watch Video
             </a>
           </div>

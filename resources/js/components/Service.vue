@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen -mt-5 bg-gradient-to-b from-gray-50 to-white">
     <!-- Hero Section -->
-    <section class="relative bg-lime-900 text-white overflow-hidden min-h-[500px] sm:min-h-[600px]">
+    <section class="relative bg-lime-900 text-white overflow-hidden h-[500px] sm:h-[500px] md:h-[600px] lg:h-[700px] w-full ">
       <div class="absolute inset-0 bg-black opacity-50"></div>
       <div class="absolute inset-0 bg-gradient-to-r from-lime-900 to-transparent"></div>
       <img 

@@ -5,6 +5,7 @@
     <component :is="currentPage"></component>
   </main>
   <MainFooter/>
+  <Portfolio />
     
   </div>
 </template>
@@ -19,6 +20,7 @@ import News  from './components/News.vue'
 import Contact from './components/Contact.vue'
 import Home from './components/Home.vue'
 import Impact  from './components/Impact.vue'
+import Portfolio from './components/Portfolio.vue'
 
 
 

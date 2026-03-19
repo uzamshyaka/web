@@ -67,9 +67,9 @@
               <select 
                 class="border rounded-lg p-3 sm:p-4 text-sm sm:text-base focus:ring-2 focus:ring-orange-400 outline-none"
               >
-                <option>RW</option>
+                
                 <option>KE</option>
-                <option>UG</option>
+                
               </select>
               <input 
                 type="text" 
