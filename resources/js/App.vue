@@ -31,11 +31,6 @@ const pages = {
   news:News,
   contact:Contact,
   impact:Impact,
-  
-  
-
-  
-  
 }
 
 // Blade sets this variable
